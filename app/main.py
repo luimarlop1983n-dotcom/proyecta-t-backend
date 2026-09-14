@@ -95,7 +95,8 @@ app.add_middleware(
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
-)app.mount("/static",StaticFiles(directory=ROOT/"app"/"static"),name="static")
+)
+app.mount("/static",StaticFiles(directory=ROOT/"app"/"static"),name="static")
 
 class Signup(BaseModel): email:EmailStr; password:str; name:str=""
 class Login(BaseModel): email:EmailStr; password:str
