@@ -1,5 +1,6 @@
 
 from fastapi import FastAPI, Depends, HTTPException, Header
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, EmailStr
@@ -88,7 +89,13 @@ def score(o,u,e):
     return max(1,min(98,s))
 
 app=FastAPI(title="PROYECTA+ API",version="0.4.0")
-app.mount("/static",StaticFiles(directory=ROOT/"app"/"static"),name="static")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)app.mount("/static",StaticFiles(directory=ROOT/"app"/"static"),name="static")
 
 class Signup(BaseModel): email:EmailStr; password:str; name:str=""
 class Login(BaseModel): email:EmailStr; password:str
