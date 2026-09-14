@@ -35,7 +35,7 @@ def fetch_index():
 
     pattern = re.compile(
         r"(?P<title>[^\n]{6,500})\n"
-        r"Plazo de presentación de solicitudes:ABIERTA.*?"
+        r"Plazo de presentación de solicitudes:\s*ABIERTA.*?"
         r"hasta el\s+(?P<date>\d{2}/\d{2}/\d{4})",
         re.I | re.S
     )
