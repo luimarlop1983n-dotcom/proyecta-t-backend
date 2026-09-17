@@ -1,0 +1,342 @@
+{
+  "checked_at": "2026-09-17T17:18:42.019495+00:00",
+  "method": "GET con redirecciones y TLS verificado; revisión editorial del contenido. HTTP 200 no verifica por sí solo oficialidad o matrícula.",
+  "checks": [
+    {
+      "url": "https://arte3.es/ciclos-formativos/",
+      "http_status": 200,
+      "final_url": "https://arte3.es/ciclos-formativos/",
+      "title": "Ciclos Formativos | Escuela de Arte 3",
+      "suspect": false
+    },
+    {
+      "url": "https://cazcarra.com/ahumados-y-difuminados/",
+      "http_status": 200,
+      "final_url": "https://cazcarra.com/ahumados-y-difuminados/",
+      "title": "Ahumados y Difuminados - Cazcarra Image School",
+      "suspect": false
+    },
+    {
+      "url": "https://cazcarra.com/curso-de-lifting-de-pestanas/",
+      "http_status": 200,
+      "final_url": "https://cazcarra.com/curso-de-lifting-de-pestanas/",
+      "title": "Curso de Lifting de Pestañas - Cazcarra Image School",
+      "suspect": false
+    },
+    {
+      "url": "https://cazcarra.com/curso-online-de-gel-lacker/",
+      "http_status": 200,
+      "final_url": "https://cazcarra.com/curso-online-de-gel-lacker/",
+      "title": "Curso de Gel Lacker - Cazcarra Image School",
+      "suspect": false
+    },
+    {
+      "url": "https://cazcarra.com/curso-online-de-personal-shopper-estilismo-y-moda/",
+      "http_status": 200,
+      "final_url": "https://cazcarra.com/curso-online-de-personal-shopper-estilismo-y-moda/",
+      "title": "Curso Online de Personal Shopper, Estilismo y Moda - Cazcarra Image School",
+      "suspect": false
+    },
+    {
+      "url": "https://cazcarra.com/formacion/",
+      "http_status": 200,
+      "final_url": "https://cazcarra.com/formacion/",
+      "title": "Formación - Cazcarra Image School",
+      "suspect": false
+    },
+    {
+      "url": "https://cazcarra.com/maquillaje-online/",
+      "http_status": 200,
+      "final_url": "https://cazcarra.com/maquillaje-online/",
+      "title": "Automaquillaje - Cazcarra Image School",
+      "suspect": false
+    },
+    {
+      "url": "https://cazcarra.com/planificacion-cfgs-asesoria-de-imagen-online-1o/",
+      "http_status": 200,
+      "final_url": "https://cazcarra.com/planificacion-cfgs-asesoria-de-imagen-online-1o/",
+      "title": "CFGS Asesoría de Imagen Personal y Corporativa - Cazcarra Image School",
+      "suspect": false
+    },
+    {
+      "url": "https://easd.es/es/oferta-formativa/ensenanzas-profesionales-escultoricas-fotografia-xoiaria/",
+      "http_status": 200,
+      "final_url": "https://easd.es/es/oferta-formativa/ensenanzas-profesionales-escultoricas-fotografia-xoiaria/",
+      "title": "Ensinanzas Profesionais: escultóricas, fotografía e xoiaría - EASD MESTRE MATEO",
+      "suspect": false
+    },
+    {
+      "url": "https://easd.es/es/oferta-formativa/grados/diseno-moda/",
+      "http_status": 200,
+      "final_url": "https://easd.es/es/oferta-formativa/grados/diseno-moda/",
+      "title": "Diseño de Moda - EASD MESTRE MATEO",
+      "suspect": false
+    },
+    {
+      "url": "https://easdburgos.es/estudios/cfgm-dorado-y-policromia/",
+      "http_status": 200,
+      "final_url": "https://easdburgos.es/estudios/cfgm-dorado-y-policromia/",
+      "title": "CFGS Dorado, Plateado y Policromía - EASD Burgos",
+      "suspect": false
+    },
+    {
+      "url": "https://esceramica.com/servicios/ciclo-formativo-de-ceramica-artistica-2026-2027/",
+      "http_status": 200,
+      "final_url": "https://esceramica.com/servicios/ciclo-formativo-de-ceramica-artistica-2026-2027/",
+      "title": "Ciclo Formativo de Cerámica Artística 2026/2027 - Escuela de arte y superior cerámica",
+      "suspect": false
+    },
+    {
+      "url": "https://escueladeartemurcia.es/estudios/joyeria-artistica/",
+      "http_status": 200,
+      "final_url": "https://escueladeartemurcia.es/estudios/joyeria-artistica/",
+      "title": "Ciclo Formativo Grado Superior de Joyería artística - Escuela de Arte de la Región de Murcia",
+      "suspect": false
+    },
+    {
+      "url": "https://esdir.eu/es/grado/grado-en-ensenanzas-artisticas-superiores-de-diseno-de-moda/",
+      "http_status": 200,
+      "final_url": "https://esdir.eu/es/grado/grado-en-ensenanzas-artisticas-superiores-de-diseno-de-moda/",
+      "title": "Grado de Diseño de Moda | ESDIR",
+      "suspect": false
+    },
+    {
+      "url": "https://fpaprenent.com/ciclos_formativos/estetica-integral-y-bienestar/",
+      "http_status": 200,
+      "final_url": "https://fpaprenent.com/ciclos_formativos/estetica-integral-y-bienestar/",
+      "title": "Estética integral y bienestar (Flexibilización con ampliación) - CIPFP CIUTAT DE L´APRENENT",
+      "suspect": false
+    },
+    {
+      "url": "https://fpaprenent.com/ciclos_formativos/estetica-y-belleza/",
+      "http_status": 200,
+      "final_url": "https://fpaprenent.com/ciclos_formativos/estetica-y-belleza/",
+      "title": "Estética y belleza - CIPFP CIUTAT DE L´APRENENT",
+      "suspect": false
+    },
+    {
+      "url": "https://fpaprenent.com/ciclos_formativos/estilismo-y-direccion-de-peluqueria/",
+      "http_status": 200,
+      "final_url": "https://fpaprenent.com/ciclos_formativos/estilismo-y-direccion-de-peluqueria/",
+      "title": "ESTILISMO Y DIRECCIÓN DE PELUQUERÍA (Flexibilización con ampliación) - CIPFP CIUTAT DE L´APRENENT",
+      "suspect": false
+    },
+    {
+      "url": "https://fpaprenent.com/ciclos_formativos/peluqueria-y-cosmetica-capilar/",
+      "http_status": 200,
+      "final_url": "https://fpaprenent.com/ciclos_formativos/peluqueria-y-cosmetica-capilar/",
+      "title": "Peluquería y cosmética capilar - CIPFP CIUTAT DE L´APRENENT",
+      "suspect": false
+    },
+    {
+      "url": "https://lalabeyou.com/",
+      "http_status": 200,
+      "final_url": "https://lalabeyou.com/",
+      "title": "Cursos de Joyería en Madrid, Escuela de Orfebrería, Clases de Bisutería",
+      "suspect": false
+    },
+    {
+      "url": "https://nobleart.com/academia-tatuaje-barcelona",
+      "http_status": 404,
+      "final_url": "https://nobleart.com/es/pages/academia-tatuaje-barcelona",
+      "title": "404 No encontrado\r – NOBLE ART OFFICIAL COORP",
+      "suspect": true
+    },
+    {
+      "url": "https://nobleart.com/pages/academia-tatuajes",
+      "http_status": 200,
+      "final_url": "https://nobleart.com/pages/academia-tatuajes",
+      "title": "Academia de tatuajes cerca de mí - Noble Art\r – NOBLE ART OFFICIAL COORP",
+      "suspect": false
+    },
+    {
+      "url": "https://www.domestika.org/es/courses/1966-diseno-de-joyeria-en-resina",
+      "http_status": 200,
+      "final_url": "https://www.domestika.org/es/courses/1966-diseno-de-joyeria-en-resina",
+      "title": "Curso online - Diseño de joyería en resina (Mia Winston-Hart) | Domestika",
+      "suspect": false
+    },
+    {
+      "url": "https://www.domestika.org/es/courses/753-joyeria-de-ceramica-para-principiantes/course",
+      "http_status": 200,
+      "final_url": "https://www.domestika.org/es/courses/753-joyeria-de-ceramica-para-principiantes/course",
+      "title": "Aprende Online \"Joyería de cerámica para principiantes\" (Julieta Álvarez) | Domestika",
+      "suspect": false
+    },
+    {
+      "url": "https://www.easdvalencia.com/ciclo/ciclo-de-joyeria-artistica/",
+      "http_status": 200,
+      "final_url": "https://www.easdvalencia.com/ciclo/ciclo-de-joyeria-artistica/",
+      "title": "Ciclo de Joyería Artística – EASD",
+      "suspect": false
+    },
+    {
+      "url": "https://www.easdvalencia.com/grado/grado-en-diseno-de-moda/",
+      "http_status": 200,
+      "final_url": "https://www.easdvalencia.com/grado/grado-en-diseno-de-moda/",
+      "title": "Grado en diseño de moda – EASD",
+      "suspect": false
+    },
+    {
+      "url": "https://www.educacion.gob.es/ruct/home",
+      "http_status": 200,
+      "final_url": "https://www.educacion.gob.es/ruct/home",
+      "title": "Registro de Universidades, Centros y Títulos (RUCT) - Ministerio de Educación, Cultura y Deporte",
+      "suspect": false
+    },
+    {
+      "url": "https://www.escolamassana.cat/es/tecnico-superior-de-artes-plasticas-y-dise%C3%B1o-en-arte-y-dise%C3%B1o-textil_9661",
+      "http_status": 200,
+      "final_url": "https://www.escolamassana.cat/es/tecnico-superior-de-artes-plasticas-y-dise%C3%B1o-en-arte-y-dise%C3%B1o-textil_9661",
+      "title": "Técnico Superior de Artes Plásticas y Diseño en Arte y Diseño Textil | Escola Massana. Centro de Arte y Diseño.",
+      "suspect": false
+    },
+    {
+      "url": "https://www.escolamassana.cat/es/tecnico-superior-de-artes-plasticas-y-dise%C3%B1o-en-joyeria-artistica_9468",
+      "http_status": 200,
+      "final_url": "https://www.escolamassana.cat/es/tecnico-superior-de-artes-plasticas-y-dise%C3%B1o-en-joyeria-artistica_9468",
+      "title": "Técnico Superior de Artes Plásticas y Diseño en Joyería Artística | Escola Massana. Centro de Arte y Diseño.",
+      "suspect": false
+    },
+    {
+      "url": "https://www.escueladeartedezaragoza.com/oferta-educativa/",
+      "http_status": 200,
+      "final_url": "https://www.escueladeartedezaragoza.com/oferta-educativa/",
+      "title": "Oferta Educativa | Escuela de Arte de Zaragoza",
+      "suspect": false
+    },
+    {
+      "url": "https://www.escueladeartesantelmo.es/ciclos-formativos/",
+      "http_status": 200,
+      "final_url": "https://www.escueladeartesantelmo.es/ciclos-formativos/",
+      "title": "Ciclos formativos Grado Superior – Escuela de Arte y Superior de Diseño San Telmo",
+      "suspect": false
+    },
+    {
+      "url": "https://www.ikaslangipuzkoa.eus/es/centros/ies-monte-albertia",
+      "http_status": 200,
+      "final_url": "https://www.ikaslangipuzkoa.eus/es/centros/ies-monte-albertia",
+      "title": "CIFP Irudika LHII — Ikaslan Gipuzkoa, portada",
+      "suspect": false
+    },
+    {
+      "url": "https://www.infoartisticas.gob.es/ensenanzas/artes-plasticas-diseno/profesionales-artes-plasticas/ciclos-grado-superior.html",
+      "http_status": 200,
+      "final_url": "https://www.infoartisticas.gob.es/ensenanzas/artes-plasticas-diseno/profesionales-artes-plasticas/ciclos-grado-superior.html",
+      "title": "Ciclos formativos de grado superior - Enseñanzas artísticas | Ministerio de Educación, Formación Profesional y Deportes",
+      "suspect": false
+    },
+    {
+      "url": "https://www.resad.es/especialidades.html",
+      "http_status": 200,
+      "final_url": "https://www.resad.es/especialidades.html",
+      "title": "Especialidades | RESAD",
+      "suspect": false
+    },
+    {
+      "url": "https://www.todofp.es/sobre-fp/webs-fp-ccaa.html",
+      "http_status": 200,
+      "final_url": "https://www.todofp.es/sobre-fp/webs-fp-ccaa.html",
+      "title": "Webs de Formación Profesional de las Comunidades Autónomas - TodoFP | Ministerio de Educación, Formación Profesional y Deportes",
+      "suspect": false
+    },
+    {
+      "url": "https://www.udit.es/grado-en-diseno-de-moda/",
+      "http_status": 200,
+      "final_url": "https://www.udit.es/grado-en-diseno-de-moda/",
+      "title": "Diseño de Moda - Grado Oficial en Madrid | UDIT",
+      "suspect": false
+    },
+    {
+      "url": "https://www.unir.net/diseno/grado-diseno-digital/",
+      "http_status": 403,
+      "final_url": "https://www.unir.net/diseno/grado-diseno-digital/",
+      "title": "Access Denied",
+      "suspect": true
+    },
+    {
+      "url": "https://www.uoc.edu/es/estudios/grados/grado-artes",
+      "http_status": 200,
+      "final_url": "https://www.uoc.edu/es/estudios/grados/grado-artes",
+      "title": "Grado online en Artes | UOC",
+      "suspect": false
+    },
+    {
+      "url": "https://www.uoc.edu/es/estudios/grados/grado-diseno-creacion-digital",
+      "http_status": 200,
+      "final_url": "https://www.uoc.edu/es/estudios/grados/grado-diseno-creacion-digital",
+      "title": "Grado online en Diseño y Creación Digitales | UOC",
+      "suspect": false
+    },
+    {
+      "url": "https://www3.gobiernodecanarias.org/medusa/edublog/cifplasindias/perfiles-profesionales-de-imagen-personal/",
+      "http_status": 200,
+      "final_url": "https://www3.gobiernodecanarias.org/medusa/edublog/cifplasindias/perfiles-profesionales-de-imagen-personal/",
+      "title": "Oferta educativa Imagen personal | CIFP LAS INDIAS",
+      "suspect": false
+    },
+    {
+      "url": "https://cazcarra.com/cfgm-tecnico-en-peluqueria-y-cosmetica-capilar-homologado/",
+      "http_status": 200,
+      "final_url": "https://cazcarra.com/cfgm-tecnico-en-peluqueria-y-cosmetica-capilar-homologado/",
+      "title": "Ciclo formativo de G.M en Técnico en Peluquería y Cosmética Capilar",
+      "suspect": false
+    },
+    {
+      "url": "https://cazcarra.com/intensivo-peluqueria-de-plato/",
+      "http_status": 200,
+      "final_url": "https://cazcarra.com/intensivo-peluqueria-de-plato/",
+      "title": "Intensivo de Peluquería de Plató | escuelas de peluqueria en Barcelona",
+      "suspect": false
+    },
+    {
+      "url": "https://easd.es/es/oferta-formativa/ensenanzas-profesionales-escultoricas-fotografia-xoiaria/fotografia/",
+      "http_status": 200,
+      "final_url": "https://easd.es/es/oferta-formativa/ensenanzas-profesionales-escultoricas-fotografia-xoiaria/fotografia/",
+      "title": "Fotografía - EASD MESTRE MATEO",
+      "suspect": false
+    },
+    {
+      "url": "https://easd.es/es/oferta-formativa/ensenanzas-profesionales-escultoricas-fotografia-xoiaria/joyeria-artistica/",
+      "http_status": 200,
+      "final_url": "https://easd.es/es/oferta-formativa/ensenanzas-profesionales-escultoricas-fotografia-xoiaria/joyeria-artistica/",
+      "title": "Joyería artística - EASD MESTRE MATEO",
+      "suspect": false
+    },
+    {
+      "url": "https://lalabeyou.com/calendario-cursos/categoria/talleres-cursos/cursos-de-especializacion-joyeria-programa-integral-titulo-diploma/",
+      "http_status": 200,
+      "final_url": "https://lalabeyou.com/calendario-cursos/categoria/talleres-cursos/cursos-de-especializacion-joyeria-programa-integral-titulo-diploma/",
+      "title": "Eventos en martes 29/09/2020 – miércoles 28/10/2020 › TODOS LOS CURSOS › CURSOS ANUALES ›  – Lalabeyou",
+      "suspect": false
+    },
+    {
+      "url": "https://www.easdvalencia.com/ciclo/ciclo-de-fotografia/",
+      "http_status": 200,
+      "final_url": "https://www.easdvalencia.com/ciclo/ciclo-de-fotografia/",
+      "title": "Ciclo de Fotografía – EASD",
+      "suspect": false
+    },
+    {
+      "url": "https://www.escueladeartedezaragoza.com/oferta-educativa/ceramica-artistica/",
+      "http_status": 200,
+      "final_url": "https://www.escueladeartedezaragoza.com/oferta-educativa/ceramica-artistica/",
+      "title": "Cerámica artística | Escuela de Arte de Zaragoza",
+      "suspect": false
+    },
+    {
+      "url": "https://www.escueladeartedezaragoza.com/oferta-educativa/joyeria-artistica/",
+      "http_status": 200,
+      "final_url": "https://www.escueladeartedezaragoza.com/oferta-educativa/joyeria-artistica/",
+      "title": "Joyería artística | Escuela de Arte de Zaragoza",
+      "suspect": false
+    },
+    {
+      "url": "https://lalabeyou.com/curso/curso-anual-de-joyeria-en-metal-sabados/",
+      "http_status": 200,
+      "final_url": "https://lalabeyou.com/curso/curso-anual-de-joyeria-en-metal-sabados/",
+      "title": "Curso Anual de Joyería en Metal - Sábados",
+      "suspect": false
+    }
+  ]
+}

@@ -6,7 +6,7 @@ Frontend editorial nocturno compartido en `dist/`. FastAPI sirve esos mismos arc
 
 Backend: Python 3.12 recomendado, `pip install -r requirements.txt`, `uvicorn app.main:app --host 127.0.0.1 --port 8765`. Por defecto utiliza SQLite local. En producción conservar `DATABASE_URL` de PostgreSQL y `ADMIN_TOKEN` de Railway.
 
-Frontend: Node 22+, `npm ci`, `npm run build`, `npm test`. Las pruebas de navegador usan Chrome instalado y el backend local en el puerto 8765: `npm run test:browser`. Puede configurarse `TEST_BASE_URL`. Backend: `python -m unittest discover -s tests -p 'test_backend.py' -v` (base temporal aislada).
+Frontend: Node 22+, `npm ci`, `npm run build`, `npm test`. Las pruebas de navegador usan Chrome instalado y el backend local en el puerto 8765: `npm run test:browser`. Puede configurarse `TEST_BASE_URL`. Backend: `python -m unittest tests.test_backend tests.test_training -v` (base temporal aislada).
 
 Android: Java 21, SDK 35 y `ANDROID_HOME`; ejecutar `npm run android:build`. El APK de depuración queda en `android/app/build/outputs/apk/debug/app-debug.apk`. No es una publicación en Google Play.
 
@@ -41,3 +41,9 @@ Se conservan autenticación Bearer y CORS sin cookies para Android. No hay secre
 ## Validación del 17/09/2026
 
 Ver `VALIDATION.md` para las pruebas y límites de esta entrega. El sitio de Sites anterior tiene un despliegue independiente: este repositorio actualiza la web servida por Railway y los assets de Android.
+
+## Formación revisada
+
+47 fichas: 46 verificadas y una pendiente por bloqueo HTTP 403. 36 programas oficiales y 10 propios/no oficiales verificados, con centros en 11 comunidades y 10 opciones online. Filtros independientes de modalidad, comunidad, titulación y titularidad; búsqueda sin acentos y comparación de hasta tres programas. Las opciones a distancia con presencialidad desconocida se distinguen de online. Los directorios ministeriales enlazan la oferta de todas las comunidades.
+
+`docs/training-link-audit.json` conserva las respuestas y redirecciones comprobadas el 17/09/2026, incluido el enlace 404 descartado. La revisión de contenido se realiza aparte: una respuesta HTTP 200 no prueba oficialidad, matrícula abierta ni calidad. No renovar `last_activity_at` con un simple chequeo HTTP.

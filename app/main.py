@@ -177,11 +177,11 @@ def catalog_csv(db:Session=Depends(dbdep)):
     return Response(output.getvalue(),media_type="text/csv; charset=utf-8",headers={"Content-Disposition":"attachment; filename=proyecta-t-catalogo.csv"})
 
 @app.get("/api/training")
-def training(category:str="", region:str="", mode:str=""):
+def training(category:str="", region:str="", mode:str="", credential:str="", provider:str=""):
     rows=json.loads((ROOT/"app/data/training.json").read_text())
     for row in rows:
         row["status"] = freshness_state("open", "", row)
-    return [r for r in rows if (not category or category in r["categories"]) and (not region or region == r["region"]) and (not mode or mode in r["modes"])]
+    return [r for r in rows if (not category or category in r["categories"]) and (not region or region == r["region"]) and (not mode or mode in r["modes"]) and (not credential or credential == r.get("credential_type")) and (not provider or provider == r.get("provider_type"))]
 
 @app.get("/api/opportunities")
 def list_opportunities(include_inactive:bool=False,u:User=Depends(current_user),db:Session=Depends(dbdep)):
