@@ -1,0 +1,1 @@
+globalThis.PROYECTAT_API_BASE = (typeof location !== 'undefined' && (location.hostname === '127.0.0.1' || location.hostname === 'proyecta-t-backend-production.up.railway.app')) ? location.origin : 'https://proyecta-t-backend-production.up.railway.app';

@@ -1,0 +1,6 @@
+{
+  "appId": "es.proyectat.app",
+  "appName": "Proyecta-T",
+  "webDir": "www",
+  "server": {"androidScheme": "https"}
+}

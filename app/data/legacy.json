@@ -1,0 +1,3827 @@
+[
+  {
+    "id": 101,
+    "title": "Investigación Situada 2027 · Medialab Matadero",
+    "type": "Residencias",
+    "country": "España",
+    "place": "Madrid",
+    "disciplines": [
+      "Artes visuales",
+      "Diseño",
+      "Audiovisual",
+      "Interdisciplinar"
+    ],
+    "state": "Abierta",
+    "deadline": "27 sept 2026 · 23:59, Madrid",
+    "end": "2026-09-27T23:59:00+02:00",
+    "start": null,
+    "amount": "10.000 € antes de impuestos",
+    "description": "Residencia de enero a julio de 2027 para investigar cruces entre arte, diseño, ciencia y sociedad.",
+    "requirements": [
+      "Personas o colectivos con un proyecto coherente con Medialab.",
+      "Conexión explícita con uno o más programas LAB de la convocatoria.",
+      "Participación presencial y devolución pública; solicitud en español o inglés."
+    ],
+    "url": "https://www.mataderomadrid.org/convocatorias/convocatoria-de-proyectos-de-investigacion-situada-2027",
+    "next": "Lee las bases y concreta la relación de tu propuesta con los programas LAB.",
+    "mode": "Presencial",
+    "art": "three",
+    "label": "ARTES VISUALES / DISEÑO",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "specialties": [],
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Estancias y residencias"
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Ses12naus · Residencia 2026–2027",
+    "type": "Residencias",
+    "country": "España",
+    "place": "Ibiza",
+    "disciplines": [
+      "Artes visuales",
+      "Interdisciplinar"
+    ],
+    "state": "Abierta",
+    "deadline": "30 sept 2026 · 23:59 CEST",
+    "end": "2026-09-30T23:59:00+02:00",
+    "start": null,
+    "amount": "Residencia en dos fases",
+    "description": "Investigación y creación en diálogo con Ibiza, con dos estancias y acompañamiento entre ambas.",
+    "requirements": [
+      "Dirigida a artistas visuales y comisarios de Baleares, España y Europa.",
+      "Cuatro proyectos seleccionados; consultar distribución territorial en las bases.",
+      "Proyecto conectado con el contexto, comunidades o patrimonio de Ibiza."
+    ],
+    "url": "https://ses12naus.org/en/programa/open-call-2026-2027-2/",
+    "next": "Consulta las bases y explica cómo tu proyecto dialoga con el territorio.",
+    "mode": "Presencial",
+    "art": "two",
+    "label": "ARTES VISUALES / INTERDISCIPLINAR",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "specialties": [],
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Estancias y residencias"
+    ]
+  },
+  {
+    "id": 112,
+    "title": "74º Premio de Novela Ateneo-Ciudad de Valladolid",
+    "type": "Premios",
+    "country": "España",
+    "place": "Valladolid",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Novela"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-09",
+    "deadline": "9 oct 2026 · fecha del matasellos",
+    "start": null,
+    "amount": "20.000 € y publicación",
+    "description": "Premio para una novela inédita en castellano. Organizado en España y abierto a personas de cualquier nacionalidad.",
+    "requirements": [
+      "Mayores de edad; excluye anteriores ganadores.",
+      "150–300 páginas; original inédito, sin derechos comprometidos ni concursos pendientes.",
+      "Entrega postal: copia en papel, USB y plica; no admite correo electrónico."
+    ],
+    "url": "https://www.ateneodevalladolid.org/bases-premio-novela-2027-edicion-74a/",
+    "next": "Consulta las bases oficiales y prepara la documentación y el formato de obra exigidos.",
+    "mode": "En línea",
+    "art": "two",
+    "label": "NOVELA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Literatura"
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Relato Corto Eugenio Carbajal · XXIV edición",
+    "type": "Premios",
+    "country": "España",
+    "place": "Mieres, Asturias",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Relatos"
+    ],
+    "state": "Abierta",
+    "end": "2026-11-30T23:59:00+01:00",
+    "deadline": "30 nov 2026 · 23:59, hora peninsular",
+    "start": null,
+    "amount": "1.500 € antes de retenciones",
+    "description": "Certamen de relatos originales en español para jóvenes de 18 a 30 años, de cualquier nacionalidad.",
+    "requirements": [
+      "18–30 años; excluye ganadores de las cinco últimas ediciones.",
+      "Máximo dos relatos inéditos, no premiados; extensión de 3–10 páginas según bases.",
+      "Envío postal o por correo electrónico: Word, PDF y plica; comprueba dirección y recepción."
+    ],
+    "url": "https://www.mieres.es/cultura/concursos-certamenes-premios/certamen-relato-corto-eugenio-carbajal/",
+    "next": "Consulta las bases oficiales y prepara la documentación y el formato de obra exigidos.",
+    "mode": "En línea",
+    "art": "three",
+    "label": "RELATOS",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Literatura"
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Fotografía Digital Ateneo de Valladolid 2026",
+    "type": "Premios",
+    "country": "España",
+    "place": "Valladolid",
+    "disciplines": [
+      "Artes visuales"
+    ],
+    "specialties": [
+      "Fotografía"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-15T23:59:00+02:00",
+    "deadline": "15 oct 2026 · 23:59, hora local",
+    "start": null,
+    "amount": "Trofeo y diplomas · 25 € no socios",
+    "description": "Fotografía de tema libre para personas aficionadas y profesionales. Inscripción gratuita para socios al corriente de pago.",
+    "requirements": [
+      "Mayores de edad; máximo tres fotografías originales e inéditas.",
+      "No admite IA ni retoques digitales; solo ajustes básicos permitidos en las bases.",
+      "Formulario de inscripción y justificante de pago si corresponde."
+    ],
+    "url": "https://www.ateneodevalladolid.org/concurso2026/",
+    "next": "Consulta las bases oficiales y prepara la documentación y el formato de obra exigidos.",
+    "mode": "En línea",
+    "art": "three",
+    "label": "FOTOGRAFÍA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Otras artes"
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Premios iVoox de la Audiencia 2026",
+    "type": "Premios",
+    "country": "España",
+    "place": "Pódcast en español y lenguas cooficiales",
+    "disciplines": [
+      "Pódcast"
+    ],
+    "specialties": [
+      "Pódcast"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-15",
+    "deadline": "15 sept 2026 · confirmar hora",
+    "start": null,
+    "amount": "Reconocimiento y visibilidad",
+    "description": "Novena edición de los premios elegidos por la audiencia. Se pueden inscribir pódcast de iVoox y exclusivos de otras plataformas.",
+    "requirements": [
+      "Al menos tres episodios publicados en 2026.",
+      "Español, euskera, gallego o catalán; carátula y descripción.",
+      "Revisa las bases legales y el formulario; la votación empieza el 5 de octubre."
+    ],
+    "url": "https://www.ivoox.com/blog/premios-ivoox-2026-participa-con-tu-podcast/",
+    "next": "Consulta las bases oficiales y prepara la documentación y el formato de obra exigidos.",
+    "mode": "En línea",
+    "art": "one",
+    "label": "PÓDCAST",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Otras artes"
+    ]
+  },
+  {
+    "id": 118,
+    "title": "XXXI FESTEAF · Teatro aficionado de Rivas",
+    "type": "Premios",
+    "country": "España",
+    "place": "Rivas Vaciamadrid",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-01T00:00:00+02:00",
+    "deadline": "30 sept 2026 · cierre 1 oct a las 00:00",
+    "start": null,
+    "amount": "1.300 € por grupo seleccionado",
+    "description": "Festival de teatro amateur de ámbito estatal, con representaciones en enero de 2027.",
+    "requirements": [
+      "Grupos aficionados o asociaciones escénicas amateur del Estado; excluye actividad profesional.",
+      "Montajes de 60–90 minutos; máximo dos propuestas.",
+      "Formulario, datos del grupo y espectáculo, derechos y vídeo íntegro accesible sin clave."
+    ],
+    "url": "https://www.fetam.org/wp-content/uploads/2026/09/BASES_DEL_XXXI_FESTEAF.pdf.pdf",
+    "next": "Consulta las bases oficiales y prepara la documentación y el formato de obra exigidos.",
+    "mode": "En línea",
+    "art": "two",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "theatreLevel": "Amateur",
+    "scope": "Nacional",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Teatro"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Almagro · Ayuda a la Producción 2026",
+    "type": "Ayudas",
+    "country": "España",
+    "place": "Castilla-La Mancha",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Cerrada",
+    "end": "2026-02-19",
+    "deadline": "Cerró el 19 feb 2026",
+    "start": null,
+    "amount": "Apoyo a una producción seleccionada",
+    "description": "Ayuda para compañías profesionales con sede en Castilla-La Mancha. Esta edición está cerrada; sirve como referencia para futuras convocatorias.",
+    "requirements": [
+      "Compañía profesional con sede en Castilla-La Mancha.",
+      "Reinterpretación del repertorio clásico y viabilidad de producción.",
+      "Consultar nuevas bases antes de preparar una futura solicitud."
+    ],
+    "url": "https://www.festivaldealmagro.com/convocatoria-de-ayuda-a-la-produccion-2026/",
+    "next": "Consulta las bases oficiales y prepara la documentación y el formato de obra exigidos.",
+    "mode": "En línea",
+    "art": "three",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "theatreLevel": "Profesional",
+    "scope": "Nacional",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Teatro"
+    ]
+  },
+  {
+    "id": 120,
+    "title": "40º Certamen Coreográfico de Madrid",
+    "type": "Premios",
+    "country": "España",
+    "place": "Madrid",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2026-09-01",
+    "deadline": "Cerró el 1 sept 2026",
+    "start": null,
+    "amount": "Consultar premios y condiciones",
+    "description": "Certamen de creación coreográfica de Paso a 2. La convocatoria de esta edición ya ha cerrado.",
+    "requirements": [
+      "Consulta las bases de la edición y sus condiciones de participación.",
+      "Prepara material de tu práctica coreográfica para futuras convocatorias.",
+      "No se ha confirmado aquí el plazo de la próxima edición."
+    ],
+    "url": "https://certamencoreografico.com/",
+    "next": "Consulta las bases oficiales y prepara la documentación y el formato de obra exigidos.",
+    "mode": "En línea",
+    "art": "one",
+    "label": "DANZA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Danza"
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Premios Literarios Kutxa Fundazioa 2026 · Poesía",
+    "type": "Premios",
+    "country": "España",
+    "place": "Donostia",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-21",
+    "deadline": "21 sept 2026 · confirmar hora",
+    "start": null,
+    "amount": "Consultar dotación en bases",
+    "description": "Premios de poesía en castellano y euskera. El Gobierno Vasco confirma el plazo de la convocatoria de 2026.",
+    "requirements": [
+      "Consulta las bases de 2026 para idioma, residencia, extensión y originalidad.",
+      "Los requisitos pueden variar entre castellano y euskera.",
+      "La fuente institucional enlaza al organizador; confirma la modalidad de poesía antes de enviar."
+    ],
+    "url": "https://www.euskadi.eus/gobierno-vasco/-/noticia/2026/05/05/premios-literarios-kutxa-fundazioa-2026-novela-y-poesia-/",
+    "next": "Consulta las bases oficiales y prepara la documentación y el formato de obra exigidos.",
+    "mode": "En línea",
+    "art": "two",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Poesía"
+    ]
+  },
+  {
+    "id": 200,
+    "title": "Premio Adonáis de Poesía 2026",
+    "country": "España",
+    "type": "Premios",
+    "place": "Madrid",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-15",
+    "start": null,
+    "deadline": "15/10/2026 · confirmar hora y zona",
+    "amount": "Publicación, escultura y ejemplares",
+    "description": "Premio de Rialp para un libro de poesía inédito en castellano.",
+    "requirements": [
+      "Edad máxima: 35 años.",
+      "Entre 500 y 800 versos; un único documento Word, sin seudónimo.",
+      "No presentar el libro simultáneamente a otro certamen."
+    ],
+    "url": "https://www.adonais.com.es/bases-convocatoria/",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "one",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Poesía"
+    ]
+  },
+  {
+    "id": 201,
+    "title": "Premio Nadal 2027",
+    "country": "España",
+    "type": "Premios",
+    "place": "Barcelona",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Novela"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · confirmar hora y zona",
+    "amount": "30.000 € y publicación",
+    "description": "Destino convoca la 83.ª edición para novelas inéditas en castellano.",
+    "requirements": [
+      "Enviar manuscrito y candidatura por el portal oficial.",
+      "Leer las cláusulas de exclusividad y cesión editorial.",
+      "Confirmar extensión y documentación en las bases descargables."
+    ],
+    "url": "https://premios.planetadelibros.com/es-ES/candidatura/?id=premio-nadal-2027",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "two",
+    "label": "NOVELA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Literatura"
+    ]
+  },
+  {
+    "id": 202,
+    "title": "Premio Biblioteca Breve 2027",
+    "country": "España",
+    "type": "Premios",
+    "place": "Barcelona",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Novela"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-01",
+    "start": null,
+    "deadline": "01/10/2026 · confirmar hora y zona",
+    "amount": "30.000 € y publicación",
+    "description": "Seix Barral busca una novela original e inédita en castellano.",
+    "requirements": [
+      "Formulario y manuscrito PDF, DOC o DOCX de hasta 14 MB.",
+      "No debe estar pendiente de resolución en otro concurso.",
+      "El formulario incluye declaraciones de autoría, originalidad y ausencia de IA."
+    ],
+    "url": "https://premios.planetadelibros.com/es-ES/candidatura/?id=BibliotecaBreve2027",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "three",
+    "label": "NOVELA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Literatura"
+    ]
+  },
+  {
+    "id": 203,
+    "title": "XXIV Premio Anaya de Literatura Infantil y Juvenil",
+    "country": "España",
+    "type": "Premios",
+    "place": "España",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [],
+    "state": "Abierta",
+    "end": "2026-10-01",
+    "start": null,
+    "deadline": "01/10/2026 · confirmar hora y zona",
+    "amount": "12.000 € como anticipo editorial",
+    "description": "Convocatoria 2027 para obras en castellano dirigidas a lectores a partir de 12 años.",
+    "requirements": [
+      "Obra original e inédita; consultar extensión y géneros admitidos.",
+      "Presentación por correo conforme al procedimiento de anonimato de las bases.",
+      "La dotación se vincula a la publicación y derechos de autor."
+    ],
+    "url": "https://www.anayainfantilyjuvenil.com/noticia/bases-del-xxiv-premio-anaya-de-literatura-infantil-y-juvenil/",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "one",
+    "label": "LITERATURA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Literatura"
+    ]
+  },
+  {
+    "id": 204,
+    "title": "Ángel Sanz Briz · Relato corto 2026",
+    "country": "España",
+    "type": "Concursos",
+    "place": "Zaragoza",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Relatos"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-30",
+    "start": null,
+    "deadline": "30/10/2026 · confirmar hora y zona",
+    "amount": "Primer premio: tarjeta FNAC de 500 €",
+    "description": "Concurso de relato de tema libre del Ayuntamiento de Zaragoza.",
+    "requirements": [
+      "Un relato original e inédito en castellano, de 4 a 7 páginas.",
+      "Garamond 12 e interlineado doble; PDF con seudónimo.",
+      "Datos personales en un PDF separado; envío por correo según las bases."
+    ],
+    "url": "https://www.zaragoza.es/sede/portal/cementerios/servicio/premios-concursos/4322",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "two",
+    "label": "RELATOS",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Literatura"
+    ]
+  },
+  {
+    "id": 205,
+    "title": "Cuarto y Mitad · X Concurso de relatos",
+    "country": "España",
+    "type": "Concursos",
+    "place": "Madrid",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Relatos"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-06",
+    "start": null,
+    "deadline": "06/10/2026 · confirmar hora y zona",
+    "amount": "Vale de compra de 350 €",
+    "description": "Certamen de las Bibliotecas Públicas Municipales de Madrid vinculado al Mercado de Barceló.",
+    "requirements": [
+      "Obra original e inédita.",
+      "No estar pendiente de otro certamen.",
+      "Consultar las bases municipales para extensión, tema y forma de envío."
+    ],
+    "url": "https://bibliotecas.madrid.es/portales/bibliotecas/es/capitulos/X-Concurso-de-relatos-Cuarto-y-Mitad-/?vgnextchannel=ec32a1e2d7625510VgnVCM1000008a4a900aRCRD&vgnextfmt=default&vgnextoid=482c61b3758af910VgnVCM100000891ecb1aRCRD",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "three",
+    "label": "RELATOS",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Literatura"
+    ]
+  },
+  {
+    "id": 212,
+    "title": "Concurso Nacional Serafín J. García · 30.ª edición",
+    "country": "Uruguay",
+    "type": "Concursos",
+    "place": "Vergara",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía",
+      "Relatos"
+    ],
+    "state": "Comprobar apertura",
+    "end": "2026-10-10",
+    "start": null,
+    "deadline": "10/10/2026 · confirmar hora y zona",
+    "amount": "Consultar premios por modalidad",
+    "description": "Convocatoria de cuento y poesía de Vergara, Uruguay. Reservada a ciudadanos uruguayos mayores de 15 años; confirma con la biblioteca las bases completas y el idioma antes de enviar.",
+    "requirements": [
+      "Participación restringida a uruguayos mayores de 15 años según la convocatoria.",
+      "Textos inéditos; consultar límites de cada modalidad.",
+      "Confirmar documentación y entrega en las bases del organizador.",
+      "El anuncio municipal no reproduce la cláusula de idioma: solicita las bases completas a la biblioteca."
+    ],
+    "url": "https://www.vergara.gub.uy/lanzamiento-de-la-30-a-edicion-del-concurso-literario-nacional-serafin-j-garcia/",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "one",
+    "label": "POESÍA / RELATOS",
+    "reviewed": "13/09/2026",
+    "scope": "Lengua hispana",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": false,
+    "areas": [
+      "Poesía",
+      "Literatura"
+    ]
+  },
+  {
+    "id": 213,
+    "title": "El Pedroso · XVI Certamen Nacional de Teatro Aficionado",
+    "country": "España",
+    "type": "Concursos",
+    "place": "El Pedroso, Sevilla",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-28",
+    "start": null,
+    "deadline": "28/09/2026 · confirmar hora y zona",
+    "amount": "Consultar ayudas y premios",
+    "description": "El Ayuntamiento abre la inscripción del certamen de teatro aficionado de 2026.",
+    "requirements": [
+      "Dirigido a grupos de teatro aficionado.",
+      "Consultar las bases adjuntas para duración, documentación y fechas de representación.",
+      "Confirmar transporte, dietas y obligaciones del grupo antes de inscribirse."
+    ],
+    "url": "https://elpedroso.es/abierto-el-plazo-de-inscripcion/",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "two",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "Amateur",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Teatro"
+    ]
+  },
+  {
+    "id": 214,
+    "title": "Olvera · XVI Certamen Nacional de Teatro Aficionado",
+    "country": "España",
+    "type": "Concursos",
+    "place": "Olvera, Cádiz",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · confirmar hora y zona",
+    "amount": "Consultar compensaciones y premios",
+    "description": "El Traspunte publica las bases de 2026 para seleccionar seis grupos de teatro aficionado.",
+    "requirements": [
+      "Grupo aficionado y disponibilidad para actuar en las fechas asignadas.",
+      "Enviar la solicitud y documentación según las bases del blog oficial.",
+      "El enlace tiene fecha antigua, pero las bases publicadas corresponden a 2026."
+    ],
+    "url": "https://certamenolvera.blogspot.com/2024/07/bases-xvi-certamen-nacional-de-teatro.html",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "three",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "Amateur",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Teatro"
+    ]
+  },
+  {
+    "id": 215,
+    "title": "Ciudad de Requena · XXII Certamen de textos teatrales",
+    "country": "España",
+    "type": "Concursos",
+    "place": "Requena, Valencia",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-01",
+    "start": null,
+    "deadline": "01/10/2026 · confirmar hora y zona",
+    "amount": "Consultar dotación en bases",
+    "description": "Arrabal Teatro y Fundación Ciudad de Requena convocan un premio de dramaturgia.",
+    "requirements": [
+      "Texto original en castellano, no publicado ni representado ni presentado a otro concurso.",
+      "De 20 a 60 páginas o 5.000–15.000 palabras según las bases.",
+      "Presentación con seudónimo y plica independiente; no es un certamen de montaje escénico."
+    ],
+    "url": "https://www.fetam.org/wp-content/uploads/2026/06/BASES-XXII-CERTAMEN-CIUDAD-DE-REQUENA.pdf",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "one",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "Dramaturgia · textos",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Teatro"
+    ]
+  },
+  {
+    "id": 216,
+    "title": "X Muestra FETAM · apoyo al teatro aficionado",
+    "country": "España",
+    "type": "Ayudas",
+    "place": "Comunidad de Madrid",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-31",
+    "start": null,
+    "deadline": "31/10/2026 · o antes si se cubren 25 solicitudes",
+    "amount": "350 € + servicios · complementos según modalidad",
+    "description": "Ayuda para grupos de teatro aficionado asociados a FETAM con actuación presencial en Madrid.",
+    "requirements": [
+      "Grupos socios de FETAM, con cuotas al corriente y antigüedad exigida; actuación presencial en Madrid.",
+      "Formulario, dossier, datos del espacio y función; hasta 25 solicitudes por orden de llegada.",
+      "El cierre de solicitudes es el 31 de octubre. Las bases contienen «31 de noviembre» para las funciones: confirmar esa errata con FETAM."
+    ],
+    "url": "https://www.fetam.org/bases-x-muestra-de-teatro-aficionado-de-madrid/",
+    "next": "Confirma que queda cupo, tu antigüedad y cuotas. Consulta con FETAM la errata de la fecha de las funciones antes de contratar el espacio.",
+    "mode": "Presencial",
+    "art": "two",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "Amateur",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Teatro"
+    ]
+  },
+  {
+    "id": 219,
+    "title": "X Festival Flamenco Mediterráneo · Fotografía 2026",
+    "country": "España",
+    "type": "Concursos",
+    "place": "Alicante",
+    "disciplines": [
+      "Artes visuales"
+    ],
+    "specialties": [
+      "Fotografía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-25",
+    "start": null,
+    "deadline": "25/09/2026 · confirmar hora y zona",
+    "amount": "Primer premio 400 € · segundo 150 €",
+    "description": "Fundación Mediterráneo convoca un concurso fotográfico de temática flamenca.",
+    "requirements": [
+      "Participación nacional e internacional gratuita.",
+      "Hasta dos imágenes inéditas y no premiadas; JPEG sRGB según las especificaciones.",
+      "Enviar imágenes y plica por el procedimiento de las bases; confirmar cierre exacto."
+    ],
+    "url": "https://fundacionmediterraneo.es/actividades/convocatorias/concurso-de-fotografia-del-x-festival-flamenco-mediterraneo-2026/",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "two",
+    "label": "FOTOGRAFÍA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Otras artes"
+    ]
+  },
+  {
+    "id": 220,
+    "title": "Nature and Humans 2026 · fotografía de naturaleza",
+    "country": "España",
+    "type": "Concursos",
+    "place": "España",
+    "disciplines": [
+      "Artes visuales"
+    ],
+    "specialties": [
+      "Fotografía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-28",
+    "start": null,
+    "deadline": "28/09/2026 · confirmar hora y zona",
+    "amount": "Premios por categoría · inscripción 25 €",
+    "description": "Concurso internacional con énfasis en naturaleza, conservación y relación con las personas.",
+    "requirements": [
+      "Abierto a aficionados y profesionales de todo el mundo; hasta 30 fotografías.",
+      "Tasa general 25 €, FONAMAD 15 €; menores de 18 años exentos mediante contacto previo.",
+      "Las imágenes cierran el 28 de septiembre; el 20 de octubre es la entrega posterior de RAW para finalistas."
+    ],
+    "url": "https://natureandhumans.com/bases/",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "three",
+    "label": "FOTOGRAFÍA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Otras artes"
+    ]
+  },
+  {
+    "id": 221,
+    "title": "Emociones · III Concurso Nacional de Fotografía",
+    "country": "España",
+    "type": "Concursos",
+    "place": "España",
+    "disciplines": [
+      "Artes visuales"
+    ],
+    "specialties": [
+      "Fotografía"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-10",
+    "start": null,
+    "deadline": "10/10/2026 · confirmar hora y zona",
+    "amount": "Consultar premios y tasas",
+    "description": "Sandra Furest Psicología e iNFOCUS convocan fotografía en torno a las emociones.",
+    "requirements": [
+      "Hasta cuatro fotografías digitales conforme a las bases.",
+      "Presentación en la plataforma indicada por el organizador.",
+      "Comprobar residencia admitida, tasa, derechos de imagen y dimensiones en el PDF."
+    ],
+    "url": "https://www.federacionandaluzafotografia.com/sites/default/files/concursos/bases/bases_iii_concurso_nacional_fotografia_emociones_-_sandra_furest_psicologia.pdf",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "one",
+    "label": "FOTOGRAFÍA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Otras artes"
+    ]
+  },
+  {
+    "id": 222,
+    "title": "Internacional Ciudad de Sevilla · Fotografía 2026",
+    "country": "España",
+    "type": "Concursos",
+    "place": "Sevilla",
+    "disciplines": [
+      "Artes visuales"
+    ],
+    "specialties": [
+      "Fotografía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · confirmar hora y zona",
+    "amount": "Consultar premios y tasa por secciones",
+    "description": "Salón fotográfico con distintas secciones y bases publicadas por la Federación Andaluza.",
+    "requirements": [
+      "Hasta cuatro fotografías por sección; JPEG con dimensiones y peso fijados en las bases.",
+      "No se admite IA ni obras aceptadas o premiadas en ediciones previas según las bases.",
+      "Consultar categorías, inscripción y derechos antes de enviar."
+    ],
+    "url": "https://www.federacionandaluzafotografia.com/sites/default/files/concursos/bases/bases_internacional_ciudad_de_sevilla_2026._espanol.pdf",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "two",
+    "label": "FOTOGRAFÍA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Otras artes"
+    ]
+  },
+  {
+    "id": 223,
+    "title": "Pont de Ferro · 15.º Concurso de Fotografía 2026",
+    "country": "España",
+    "type": "Concursos",
+    "place": "Tordera, Barcelona",
+    "disciplines": [
+      "Artes visuales"
+    ],
+    "specialties": [
+      "Fotografía"
+    ],
+    "state": "Próxima",
+    "end": "2026-10-25",
+    "start": "2026-10-01",
+    "deadline": "25/10/2026 · confirmar hora y zona",
+    "amount": "Consultar tasa y premios",
+    "description": "Convocatoria de Foto Club Tordera con secciones sobre Tordera y pueblos de España.",
+    "requirements": [
+      "Inscripción del 1 al 25 de octubre; hasta cinco fotos por sección según las bases.",
+      "Comprobar el requisito de participación en España y las secciones reservadas a socios.",
+      "Entrega por Fotogenius; las imágenes de Tordera deben corresponder al municipio."
+    ],
+    "url": "https://www.cefoto.es/sites/default/files/concursos/bases/15o_concurso_de_fotografia_pont_de_ferro_2026.pdf",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "three",
+    "label": "FOTOGRAFÍA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Otras artes"
+    ]
+  },
+  {
+    "id": 224,
+    "title": "Mojácar · VI Concurso de Fotografía de Moros y Cristianos",
+    "country": "España",
+    "type": "Concursos",
+    "place": "Mojácar, Almería",
+    "disciplines": [
+      "Artes visuales"
+    ],
+    "specialties": [
+      "Fotografía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-15",
+    "start": null,
+    "deadline": "15/09/2026 · confirmar hora y zona",
+    "amount": "200 € por categoría y diploma",
+    "description": "Concurso de imágenes de las fiestas de Moros y Cristianos de Mojácar de 2026.",
+    "requirements": [
+      "Leer los requisitos de la fiesta y las categorías antes de escoger fotografías.",
+      "Participantes de cualquier nacionalidad con identificación legal según las bases.",
+      "Entrega mediante WeTransfer al correo indicado; el fallo de octubre no amplía el plazo de septiembre."
+    ],
+    "url": "https://ayuntamiento.mojacar.es/Servicios/Fiestas/Fiestas.nsf/2B3C6A862F5D75B0C1258E110058DA1A/$file/BASES%20VI%20CONCURSO%20FOTOGRAFIA%20MYC%202026_MOJACAR.pdf",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "one",
+    "label": "FOTOGRAFÍA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Otras artes"
+    ]
+  },
+  {
+    "id": 225,
+    "title": "Instantes de Lecturas · XI Certamen de Fotografía",
+    "country": "España",
+    "type": "Concursos",
+    "place": "San Roque, Cádiz",
+    "disciplines": [
+      "Artes visuales"
+    ],
+    "specialties": [
+      "Fotografía"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-23",
+    "start": null,
+    "deadline": "23/10/2026 · confirmar hora y zona",
+    "amount": "Consultar dotación en las bases",
+    "description": "Concurso municipal de fotografía relacionado con la lectura.",
+    "requirements": [
+      "El portal municipal fija plazo del 11 de mayo al 23 de octubre de 2026.",
+      "Confirmar edad, formato, número de imágenes y procedimiento de participación.",
+      "Consultar las autorizaciones de personas fotografiadas y los derechos de uso."
+    ],
+    "url": "https://transparencia.sanroque.es/index.php/es/node/4198",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "two",
+    "label": "FOTOGRAFÍA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Otras artes"
+    ]
+  },
+  {
+    "id": 228,
+    "title": "PopyRock 2026",
+    "country": "España",
+    "type": "Concursos",
+    "place": "Zaragoza",
+    "disciplines": [
+      "Música"
+    ],
+    "specialties": [
+      "Música"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-15",
+    "start": null,
+    "deadline": "15/10/2026 · confirmar hora y zona",
+    "amount": "Premios según las bases",
+    "description": "Concurso de música joven promovido por el Ayuntamiento de Zaragoza.",
+    "requirements": [
+      "Edad de 14 a 30 años con las excepciones para grupos indicadas en las bases.",
+      "Vínculo con Aragón por nacimiento, residencia, estudios o trabajo.",
+      "Dirigido a formación amateur; confirmar repertorio, componentes y documentación."
+    ],
+    "url": "https://www.zaragoza.es/sede/portal/juventud/servicio/premios-concursos/4541",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "two",
+    "label": "MÚSICA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Otras artes"
+    ]
+  },
+  {
+    "id": 230,
+    "title": "Producción artística sostenible · segunda convocatoria",
+    "country": "España",
+    "type": "Residencias",
+    "place": "Madrid",
+    "disciplines": [
+      "Artes visuales",
+      "Interdisciplinar"
+    ],
+    "specialties": [],
+    "state": "Abierta",
+    "end": "2026-10-08",
+    "start": null,
+    "deadline": "08/10/2026 · confirmar hora y zona",
+    "amount": "Dos residencias de 5.000 € cada una",
+    "description": "Museo Reina Sofía convoca residencias de investigación y producción sobre ecología y comunidad.",
+    "requirements": [
+      "Dos estancias de cuatro meses.",
+      "Proyecto relacionado con clima, ecología, soberanía alimentaria o investigación comunitaria.",
+      "Consultar requisitos de presencia, calendario, gastos y resultados del programa."
+    ],
+    "url": "https://www.museoreinasofia.es/en/study-centre/research-residencie/sustainable-art-production-second-call/",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "Presencial",
+    "art": "one",
+    "label": "ARTES VISUALES / INTERDISCIPLINAR",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Estancias y residencias"
+    ]
+  },
+  {
+    "id": 231,
+    "title": "Reina Sofía · selección de candidatura predoctoral",
+    "country": "España",
+    "type": "Becas",
+    "place": "Madrid",
+    "disciplines": [
+      "Artes visuales",
+      "Interdisciplinar"
+    ],
+    "specialties": [],
+    "state": "Abierta",
+    "end": "2026-09-20",
+    "start": null,
+    "deadline": "20/09/2026 · confirmar hora y zona",
+    "amount": "Financiación condicionada a la convocatoria AEI",
+    "description": "Selección de una persona candidata para solicitar conjuntamente un doctorado industrial.",
+    "requirements": [
+      "No supone por sí sola la concesión de financiación ni un contrato garantizado.",
+      "Cumplir las condiciones académicas de acceso y de la convocatoria predoctoral.",
+      "Plazo ampliado al 20 de septiembre; consultar documentación y proyecto de investigación."
+    ],
+    "url": "https://www.museoreinasofia.es/centro-estudios/estancia-investigacion/convocatoria-de-seleccion-de-candidatoa-predoctoral/",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "Presencial",
+    "art": "two",
+    "label": "ARTES VISUALES / INTERDISCIPLINAR",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Otras artes"
+    ]
+  },
+  {
+    "id": 232,
+    "title": "Zaragoza · Maestra/o de teatro · lista de espera",
+    "country": "España",
+    "type": "Trabajo",
+    "place": "Zaragoza",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-15",
+    "start": null,
+    "deadline": "15/09/2026 · confirmar hora y zona",
+    "amount": "Lista de empleo · retribución según nombramiento",
+    "description": "Proceso municipal para una lista de espera de personal no permanente; no es un puesto inmediato garantizado.",
+    "requirements": [
+      "Proceso selectivo por oposición, grupo C1.",
+      "Bachiller o título técnico; títulos extranjeros homologados conforme a las bases.",
+      "Consultar temario, tasas y presentación electrónica de la instancia."
+    ],
+    "url": "https://www.zaragoza.es/oferta/ofertaDetalle.jsp?id=2174",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "Presencial",
+    "art": "three",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "Profesional",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Teatro"
+    ]
+  },
+  {
+    "id": 239,
+    "title": "LOEWE FOUNDATION Craft Prize 2027",
+    "country": "España",
+    "type": "Premios",
+    "place": "Fundación LOEWE",
+    "disciplines": [
+      "Diseño",
+      "Artes visuales"
+    ],
+    "specialties": [
+      "Artesanía"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-15",
+    "start": null,
+    "deadline": "15/10/2026 · confirmar hora y zona",
+    "amount": "50.000 € · menciones de 5.000 €",
+    "description": "Premio internacional a una obra de artesanía contemporánea singular.",
+    "requirements": [
+      "Profesionales mayores de 18 años de cualquier nacionalidad.",
+      "Obra única, realizada parcialmente a mano en los últimos cinco años y no premiada.",
+      "Presentar entre dos y cinco fotografías y texto en inglés; confirmar la hora CET indicada en las bases."
+    ],
+    "url": "https://craftprize.loewe.com/en/craftprize2027",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "one",
+    "label": "ARTESANÍA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Otras artes"
+    ]
+  },
+  {
+    "id": 246,
+    "title": "Premios Ondas 2026 · pódcast, música y audiovisual",
+    "country": "España",
+    "type": "Premios",
+    "place": "Barcelona",
+    "disciplines": [
+      "Pódcast",
+      "Música",
+      "Audiovisual"
+    ],
+    "specialties": [
+      "Pódcast",
+      "Música"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · confirmar hora y zona",
+    "amount": "Reconocimiento · consultar inscripción",
+    "description": "La 73.ª edición incorpora cinco categorías nacionales de pódcast y modalidades internacionales de audio y vídeo.",
+    "requirements": [
+      "Pódcast nativos: no contenidos previamente emitidos en radio o televisión convencional.",
+      "Categorías nacionales: producción o coproducción en España en lenguas oficiales; pódcast publicados entre octubre de 2024 y septiembre de 2026.",
+      "Consultar el reglamento para candidaturas internacionales, autorización del titular y tasas."
+    ],
+    "url": "https://premiosondas.com/wp-content/uploads/2026/06/Castellano-2026-Premios-Ondas_Reglamentos-nacionales-e-internacionales-ok.pdf",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "two",
+    "label": "PÓDCAST / MÚSICA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Otras artes"
+    ]
+  },
+  {
+    "id": 251,
+    "title": "I Concurso Nacional Cocina con Vino 2026",
+    "country": "España",
+    "type": "Concursos",
+    "place": "Valencia",
+    "disciplines": [
+      "Gastronomía"
+    ],
+    "specialties": [],
+    "state": "Abierta",
+    "end": "2026-09-25",
+    "start": null,
+    "deadline": "25/09/2026 · confirmar hora y zona",
+    "amount": "Primer premio 5.000 € · inscripción desde 80 €",
+    "description": "AEPEV y Gastrónoma buscan recetas con el vino como ingrediente protagonista.",
+    "requirements": [
+      "Cocineros profesionales en activo; consultar elegibilidad del alumnado en las bases.",
+      "Primera receta 80 €, adicionales 50 €, pack de tres 150 €; un patrocinador puede cubrir la tasa.",
+      "Diez finalistas emplatan en directo en Valencia el 27 de octubre; la candidatura cierra en septiembre."
+    ],
+    "url": "https://cocinaconvino.es/participa/",
+    "next": "Consulta la convocatoria completa y confirma tu elegibilidad antes de preparar el envío.",
+    "mode": "En línea",
+    "art": "one",
+    "label": "GASTRONOMÍA",
+    "reviewed": "13/09/2026",
+    "scope": "Nacional",
+    "theatreLevel": "",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "areas": [
+      "Otras artes"
+    ]
+  },
+  {
+    "id": 300,
+    "title": "III Premio de Poesía Generación del 27 · Ateneo de Sevilla",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Sevilla",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-15",
+    "start": null,
+    "deadline": "15/09/2026 · consultar hora en bases",
+    "amount": "Adultos 3.000 € · jóvenes 1.500 € y edición",
+    "description": "Poemarios inéditos en castellano; dos modalidades dentro de una misma convocatoria.",
+    "requirements": [
+      "Poemarios inéditos en castellano; dos modalidades dentro de una misma convocatoria.",
+      "Comprueba la edad y extensión de la modalidad adulta o joven en las bases.",
+      "El anuncio de junio confirma la tercera edición; no utilizar las bases de 2024 o 2025."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.ateneodesevilla.es/premios/poesia/",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 301,
+    "title": "XXVI Certamen Nacional de Poesía Guadiana",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Miguelturra, Ciudad Real",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-15",
+    "start": null,
+    "deadline": "15/09/2026 · consultar hora en bases",
+    "amount": "400 €",
+    "description": "Personas adultas; poema original en castellano, de hasta 60 versos.",
+    "requirements": [
+      "Personas adultas; poema original en castellano, de hasta 60 versos.",
+      "Envío postal por triplicado; no se admite correo electrónico ni obras generadas con IA.",
+      "Excluye miembros del grupo organizador y anteriores ganadores; revisar dirección postal y plica."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/recursos-para-escritores/42028-xxvi-certamen-nacional-de-poesia-guadiana",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 302,
+    "title": "XXVIII Premio de Poesía José Luis Hidalgo",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Torrelavega",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-17T23:59:00+02:00",
+    "start": null,
+    "deadline": "17/09/2026 · consultar hora en bases",
+    "amount": "1.803 €",
+    "description": "Poemario inédito en castellano, con al menos 400 versos; un original por autor.",
+    "requirements": [
+      "Poemario inédito en castellano, con al menos 400 versos; un original por autor.",
+      "Envío electrónico mediante dos PDF separados, o cuatro ejemplares por correo postal.",
+      "Excluye al ganador de la última edición; cesión para la primera edición y asistencia a la entrega."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://torrelavega.es/noticia/el-17-de-septiembre-finaliza-el-plazo-para-participar-en-el-xxviii-premio-de-poesia-jose-luis-hidalgo/",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 303,
+    "title": "X Concurso María Fonellosa · Poesía sobre discapacidad",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "España",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-21",
+    "start": null,
+    "deadline": "21/09/2026 · consultar hora en bases",
+    "amount": "Grabado y reconocimiento · sin premio económico anunciado",
+    "description": "Poesía sobre discapacidad; admite las lenguas oficiales de España.",
+    "requirements": [
+      "Poesía sobre discapacidad; admite las lenguas oficiales de España.",
+      "Original inédito; consultar extensión, anonimato y modalidad de entrega en las bases.",
+      "Excluye a anteriores ganadores; la denominación internacional no cambia que el convocante está en España."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/recursos-para-escritores/41185-x-concurso-internacional-maria-fonellosa-de-poesia-sobre-discapacidad",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 304,
+    "title": "XL Certamen de Poesía Mística de Malagón 2026",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Malagón, Ciudad Real",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-21",
+    "start": null,
+    "deadline": "21/09/2026 · consultar hora en bases",
+    "amount": "1.500 €",
+    "description": "Poesía mística; participación de cualquier nacionalidad según la convocatoria.",
+    "requirements": [
+      "Poesía mística; participación de cualquier nacionalidad según la convocatoria.",
+      "Entrega postal; consultar extensión y copias en las bases publicadas.",
+      "Verificar recepción y plica antes de enviar."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/recursos-para-escritores/41849-xl-certamen-internacional-de-poesia-mistica-malagon-2026",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 305,
+    "title": "Huerta de San Vicente · Concurso de Poesía 2026",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Granada",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-21",
+    "start": null,
+    "deadline": "21/09/2026 · consultar hora en bases",
+    "amount": "3.000 €",
+    "description": "Un poema inédito en castellano, de hasta 50 versos, para personas adultas.",
+    "requirements": [
+      "Un poema inédito en castellano, de hasta 50 versos, para personas adultas.",
+      "Correo electrónico con dos PDF: obra anónima y plica; tipografía 12 y doble espacio.",
+      "La persona premiada debe aceptar en 48 horas; no se incluyen gastos de viaje o alojamiento."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/recursos-para-escritores/42026-concurso-internacional-de-poesia-huerta-de-san-vicente-2026",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 306,
+    "title": "II Premio de Poesía Julio Mariscal",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Arcos de la Frontera, Cádiz",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-24",
+    "start": null,
+    "deadline": "24/09/2026 · consultar hora en bases",
+    "amount": "1.500 €",
+    "description": "Poesía; participación restringida a personas residentes en España.",
+    "requirements": [
+      "Poesía; participación restringida a personas residentes en España.",
+      "Envío postal; consultar extensión, copias y plica en las bases de esta edición.",
+      "No confundir la fecha de entrega o fallo con la fecha de recepción de originales."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/recursos-para-escritores/41969-ii-premio-de-poesia-julio-mariscal",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 307,
+    "title": "XLI Certamen Andaluz de Poesía Villa de Peligros",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Peligros, Granada",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-25",
+    "start": null,
+    "deadline": "25/09/2026 · consultar hora en bases",
+    "amount": "1.500 € y ejemplares",
+    "description": "Personas adultas nacidas o residentes en Andalucía; obra poética inédita.",
+    "requirements": [
+      "Personas adultas nacidas o residentes en Andalucía; obra poética inédita.",
+      "Presentación electrónica; comprobar extensión y documentación territorial en las bases.",
+      "La restricción andaluza es obligatoria y no equivale a convocatoria abierta a toda España."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/recursos-para-escritores/42030-xli-certamen-andaluz-de-poesia-villa-de-peligros",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 308,
+    "title": "XVI Premio de Poesía Claudio Rodríguez",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Zamora",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · consultar hora en bases",
+    "amount": "7.000 €",
+    "description": "Poemario inédito en castellano, entre 500 y 700 versos numerados.",
+    "requirements": [
+      "Poemario inédito en castellano, entre 500 y 700 versos numerados.",
+      "Presentación postal certificada con PDF en USB; se atiende a la fecha del matasellos.",
+      "Excluye anteriores ganadores; la dotación incluye los derechos de la primera edición."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/concursos/bases-xvi-premio-internacional-poesia-claudio-rodriguez.pdf",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 309,
+    "title": "XIV Certamen Antonio Hernández · Jóvenes poetas",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Guadalajara",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · consultar hora en bases",
+    "amount": "600 € y publicación",
+    "description": "Poetas residentes en España y nacidos después del 30 de septiembre de 1991.",
+    "requirements": [
+      "Poetas residentes en España y nacidos después del 30 de septiembre de 1991.",
+      "Consultar extensión, originales y documentación en las bases de 2026.",
+      "El premio incluye publicación; se requiere asistir a la entrega."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/recursos-para-escritores/41670-xiv-certamen-nacional-de-poesia-para-jovenes-poetas-antonio-hernandez",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 310,
+    "title": "II Certamen Gaspar Esteva · Derechos humanos",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "España",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · consultar hora en bases",
+    "amount": "1.000 €",
+    "description": "Personas adultas; poesía en castellano sobre derechos humanos, entre 100 y 500 versos.",
+    "requirements": [
+      "Personas adultas; poesía en castellano sobre derechos humanos, entre 100 y 500 versos.",
+      "Dos PDF anónimos y plica; cierre publicado a las 23:00, confirmar huso horario.",
+      "No admite creación por IA; las bases prevén cesión mundial de derechos de explotación durante cinco años."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/concursos/BASES%20II%20CERTAMEN%20INTERNACIONAL%20DE%20POES%C3%8DA%20GASPAR%20ESTEVA%20IADDA_V3.pdf",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 311,
+    "title": "XXXIV Premio de Poesía Salvador Rueda",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Rincón de la Victoria",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · consultar hora en bases",
+    "amount": "3.000 €",
+    "description": "Libro de poesía en castellano entre 500 y 1.000 versos; un original por autor.",
+    "requirements": [
+      "Libro de poesía en castellano entre 500 y 1.000 versos; un original por autor.",
+      "Presentación electrónica y anonimato; excluye a anteriores premiados.",
+      "Se exige asistencia a la entrega y se prevé cesión de derechos al Ayuntamiento: leer esa cláusula antes de aceptar."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.rincondelavictoria.es/en/node/1068",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 312,
+    "title": "LII Premio de Poesía Rafael Morales",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Talavera de la Reina",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · consultar hora en bases",
+    "amount": "9.000 € y publicación",
+    "description": "Poemario en castellano de 750 a 1.000 versos; un original por autor.",
+    "requirements": [
+      "Poemario en castellano de 750 a 1.000 versos; un original por autor.",
+      "Envío de obra y plica en PDF separados; excluye a anteriores ganadores.",
+      "Se admite publicación parcial en revistas según bases; revisar derechos de edición."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/concursos/BASES%20PREMIO%20RAFAEL%20MORALES.pdf",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 313,
+    "title": "XLI Premio de Poesía Joaquín Benito de Lucas",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Talavera de la Reina",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · consultar hora en bases",
+    "amount": "3.000 € y publicación",
+    "description": "Poesía en castellano para autores con un máximo de un libro de poesía publicado.",
+    "requirements": [
+      "Poesía en castellano para autores con un máximo de un libro de poesía publicado.",
+      "Consultar extensión y presentación de los dos PDF en las bases.",
+      "La limitación de trayectoria editorial es distinta a la del premio Rafael Morales."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/concursos/BASES%20PREMIO%20JBL.pdf",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 314,
+    "title": "XXVI Bienal de Poesía Provincia de León",
+    "areas": [
+      "Poesía"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "León",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · consultar hora en bases",
+    "amount": "6.000 €",
+    "description": "Premio de poesía convocado por el Instituto Leonés de Cultura y la Diputación de León.",
+    "requirements": [
+      "Premio de poesía convocado por el Instituto Leonés de Cultura y la Diputación de León.",
+      "Consultar las bases y el extracto del BOP de la edición 2026 para formato, extensión y entrega.",
+      "Participación de distintas nacionalidades; no sustituir las bases de 2026 por las de ediciones anteriores."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://bop.dipuleon.es/publica/buscador-anuncios/anuncio/Extracto-de-la-Convocatoria-con-destino-al-Premio-XXVI-Bienal-de-Poesia-Provincia-de-Leon-2026/",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "POESÍA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 315,
+    "title": "Premios Tiflos Literarios 2026 · Poesía, cuento y novela",
+    "areas": [
+      "Poesía",
+      "Literatura"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Madrid",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía",
+      "Relatos",
+      "Novela"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · consultar hora en bases",
+    "amount": "Poesía/cuento 10.000 € · novela 20.000 €",
+    "description": "Mayores de 18 años de cualquier nacionalidad; obras en castellano. La sección general no exige discapacidad.",
+    "requirements": [
+      "Mayores de 18 años de cualquier nacionalidad; obras en castellano. La sección general no exige discapacidad.",
+      "Poesía: 500–1.000 versos; las extensiones de cuento y novela son distintas. Presentación electrónica.",
+      "Premios especiales adicionales para discapacidad visual; confirmar el horario porque las bases indican UTC+1 para septiembre."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.once.es/servicios-sociales/cultura-y-ocio/creacion-literaria/premios-tiflos/o028dpsa2026.pdf/@@download/file/o028dpsa2026.pdf",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "POESÍA / LITERATURA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 316,
+    "title": "XXII Concurso Gloria Fuertes · Relatos y poesía",
+    "areas": [
+      "Poesía",
+      "Literatura"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "La Rinconada, Sevilla",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía",
+      "Relatos"
+    ],
+    "state": "Próxima",
+    "end": "2026-10-16",
+    "start": "2026-09-16",
+    "deadline": "16/10/2026 · consultar hora en bases",
+    "amount": "Premios por categoría · consultar bases",
+    "description": "Categorías infantil, juvenil y adulta; relato hasta 15 páginas o poesía hasta 100 versos.",
+    "requirements": [
+      "Categorías infantil, juvenil y adulta; relato hasta 15 páginas o poesía hasta 100 versos.",
+      "Apertura anunciada el 16 de septiembre; solicitud por registro presencial o sede electrónica municipal.",
+      "Consultar categorías, dotaciones y ámbito local en las bases antes de presentar."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.larinconada.es/es/noticias/15535/el-22-concurso-de-relatos-y-poesia-gloria-fuertes-2026-abre-plazo-el-16-de-septiembre",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "POESÍA / LITERATURA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 317,
+    "title": "Premios Provincia de Guadalajara 2026 · Cela y Ochaíta",
+    "areas": [
+      "Poesía",
+      "Literatura"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Guadalajara",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Poesía",
+      "Relatos",
+      "Novela"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · consultar hora en bases",
+    "amount": "Narrativa 7.000 € · poesía 3.000 €",
+    "description": "Convocatoria de la Diputación con modalidades de narrativa y poesía, además de otras disciplinas.",
+    "requirements": [
+      "Convocatoria de la Diputación con modalidades de narrativa y poesía, además de otras disciplinas.",
+      "Cada modalidad tiene su extensión y documentación; no presentar una misma obra indistintamente.",
+      "Una única convocatoria con varias modalidades: no se duplica dentro de una misma área."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/recursos-para-escritores/41886-convocatorias-premios-provincia-de-guadalajara-y-rio-ungria-y-rio-henares-ano-2026-premio-camilo-jose-cela-de-narrativa-premio-jose-de-juan-garcia-de-periodismo-premio-de-investigacion-entografica-jose-ramon-lopez-de-los-mozos-premio-jose-antonio-ochaita-de-poesia",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "POESÍA / LITERATURA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 318,
+    "title": "Hablando en Cobre · IX Concurso de microrrelatos",
+    "areas": [
+      "Literatura"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "España",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Microrrelatos"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-15",
+    "start": null,
+    "deadline": "15/09/2026 · consultar hora en bases",
+    "amount": "2.000 €",
+    "description": "Personas adultas con nacionalidad española o residencia legal en España.",
+    "requirements": [
+      "Personas adultas con nacionalidad española o residencia legal en España.",
+      "Microrrelato en castellano; consultar extensión, tema y formulario de la novena edición.",
+      "Comprobar originalidad y derechos antes de enviar."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/recursos-para-escritores/42078-novena-edicion-del-concurso-hablando-en-cobre",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "LITERATURA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 319,
+    "title": "XXX Premio Nostromo · La aventura marítima",
+    "areas": [
+      "Literatura"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Barcelona",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Novela"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-15",
+    "start": null,
+    "deadline": "15/09/2026 · consultar hora en bases",
+    "amount": "5.000 € y publicación",
+    "description": "Novela inédita vinculada al mundo marítimo.",
+    "requirements": [
+      "Novela inédita vinculada al mundo marítimo.",
+      "Consultar extensión, anonimato, presentación y derechos de edición en las bases.",
+      "El premio corresponde a la trigésima edición de 2026."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/recursos-para-escritores/42122-xxx-premio-nostromo-la-aventura-maritima",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "LITERATURA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 320,
+    "title": "Albacara 2026 · Narrativa Ciudad de la Cruz",
+    "areas": [
+      "Literatura"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Caravaca de la Cruz",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Relatos"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-15T23:59:00+02:00",
+    "start": null,
+    "deadline": "15/09/2026 · consultar hora en bases",
+    "amount": "1.500 €",
+    "description": "Personas adultas; relato inédito en castellano de 3.000–5.000 palabras sobre Caravaca de la Cruz.",
+    "requirements": [
+      "Personas adultas; relato inédito en castellano de 3.000–5.000 palabras sobre Caravaca de la Cruz.",
+      "Presentación electrónica con obra y plica separadas; no concurrente en otro concurso.",
+      "Se utiliza el PDF de narrativa de 2026; el enlace de poesía en algunos directorios está equivocado."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/concursos/Bases%202026%20Narrativa%20CiudadDeLaCruz%20ALBACARA.pdf",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "LITERATURA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 321,
+    "title": "XXXIX Premio Comillas 2027 · Historia, biografía y memorias",
+    "areas": [
+      "Literatura"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Barcelona",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Ensayo"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-28",
+    "start": null,
+    "deadline": "28/09/2026 · consultar hora en bases",
+    "amount": "12.000 € y publicación",
+    "description": "Ensayo de historia, biografía o memorias para personas adultas.",
+    "requirements": [
+      "Ensayo de historia, biografía o memorias para personas adultas.",
+      "Consultar manuscrito, formato y contrato de edición en las bases de la convocatoria 2027.",
+      "El año del premio es 2027; la candidatura cierra en septiembre de 2026."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/recursos-para-escritores/42125-xxxix-premio-comillas-de-historia-biografia-y-memorias-2027",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "LITERATURA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 322,
+    "title": "XXXVI Premio Relato Corto Policía Nacional",
+    "areas": [
+      "Literatura"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "España",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Relatos"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · consultar hora en bases",
+    "amount": "3.000 €",
+    "description": "Personas adultas residentes en España; relato corto.",
+    "requirements": [
+      "Personas adultas residentes en España; relato corto.",
+      "Consultar tema, extensión, anonimato y entrega en las bases de la 36.ª edición.",
+      "No confundir la residencia exigida con la nacionalidad del autor."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/recursos-para-escritores/41973-xxxvi-edicion-del-premio-relato-corto-policia-nacional",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "LITERATURA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 323,
+    "title": "XLVI Concurso de Cuentos Villa de Errenteria",
+    "areas": [
+      "Literatura"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Errenteria, Gipuzkoa",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Relatos"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-27",
+    "start": null,
+    "deadline": "27/09/2026 · consultar hora en bases",
+    "amount": "800 € según modalidad",
+    "description": "Concurso de cuentos con modalidades lingüísticas; seleccionar las bases de castellano si procede.",
+    "requirements": [
+      "Concurso de cuentos con modalidades lingüísticas; seleccionar las bases de castellano si procede.",
+      "Consultar extensión, anonimato y forma de entrega de la 46.ª edición.",
+      "No aplicar automáticamente las condiciones de una modalidad a la otra."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.escritores.org/recursos-para-escritores/41965-xlvi-concurso-de-cuentos-villa-de-errenteria",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "LITERATURA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases publicadas · Escritores.org",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 324,
+    "title": "IX Premio de Microrrelatos Antonio Garrido Moraga",
+    "areas": [
+      "Literatura"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Rincón de la Victoria",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Microrrelatos"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · consultar hora en bases",
+    "amount": "1.000 €",
+    "description": "Microrrelato original e inédito; sin derechos cedidos, sin premios ni fallo pendiente en otro certamen.",
+    "requirements": [
+      "Microrrelato original e inédito; sin derechos cedidos, sin premios ni fallo pendiente en otro certamen.",
+      "Formulario municipal y carga de la obra; consultar límite de palabras y anonimato en el PDF.",
+      "Una convocatoria distinta al concurso de relatos Gloria Fuertes del mismo Ayuntamiento."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://microrrelatos.culturaenrincon.es/index.html",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "LITERATURA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 325,
+    "title": "I Certamen de Relato Corto Gastronómico · Real Academia de Gastronomía",
+    "areas": [
+      "Literatura"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "España",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Relatos"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30T23:59:00+02:00",
+    "start": null,
+    "deadline": "30/09/2026 · consultar hora en bases",
+    "amount": "5.000 € · accésit 1.000 €",
+    "description": "Personas adultas de cualquier nacionalidad; hasta dos relatos de 3.000–7.000 palabras.",
+    "requirements": [
+      "Personas adultas de cualquier nacionalidad; hasta dos relatos de 3.000–7.000 palabras.",
+      "Castellano, o lengua oficial española con traducción propia al castellano; obra inédita y sin IA.",
+      "Entrega por correo en PDF, obra y plica separadas. Derechos no exclusivos durante tres años."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://realacademiadegastronomia.com/certamen-de-relato-corto-gastronomico/",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "LITERATURA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 326,
+    "title": "9.º Te lo cuento en el aire · Fundación ENAIRE",
+    "areas": [
+      "Literatura"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "España",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Relatos"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30T23:59:00+02:00",
+    "start": null,
+    "deadline": "30/09/2026 · consultar hora en bases",
+    "amount": "1.000 € · posible accésit 500 €",
+    "description": "Relato sobre los grandes vuelos de la aviación española de 1926–1935.",
+    "requirements": [
+      "Relato sobre los grandes vuelos de la aviación española de 1926–1935.",
+      "Personas mayores de 13 años; un relato de 2.000–2.500 palabras. Consultar idioma y formato en las bases.",
+      "Inscripción por formulario; los 30 finalistas se publicarán en una antología digital."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://fundacionenaire.es/actividad/relato-breve-26/",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "LITERATURA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 327,
+    "title": "IX Certamen de Relatos Cortos · Gloria Fuertes",
+    "areas": [
+      "Literatura"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Rincón de la Victoria",
+    "type": "Concursos",
+    "disciplines": [
+      "Literatura"
+    ],
+    "specialties": [
+      "Relatos"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-30",
+    "start": null,
+    "deadline": "30/09/2026 · consultar hora en bases",
+    "amount": "2.000 € · accésit 500 €",
+    "description": "Cualquier edad y nacionalidad; un relato en castellano de 1.000–1.500 palabras, sin contar el título.",
+    "requirements": [
+      "Cualquier edad y nacionalidad; un relato en castellano de 1.000–1.500 palabras, sin contar el título.",
+      "Envío por formulario municipal; archivo anónimo en DOC, DOCX o PDF.",
+      "Obras premiadas pasan al patrimonio municipal con reserva de derechos; anteriores ganadores no optan al primer premio."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.rincondelavictoria.es/sites/default/files/2026-05/Bases%20Certamen%20Relatos%20Cortos_0.pdf",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "LITERATURA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 328,
+    "title": "AAIC · Residencias artísticas 2026",
+    "areas": [
+      "Estancias y residencias",
+      "Danza",
+      "Teatro"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Andalucía",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2026-04-23",
+    "start": null,
+    "deadline": "23/04/2026 · consultar hora en bases",
+    "amount": "Espacios y apoyo · consultar condiciones",
+    "description": "Proyectos profesionales de danza, teatro, circo y música; veinte residencias anunciadas.",
+    "requirements": [
+      "Proyectos profesionales de danza, teatro, circo y música; veinte residencias anunciadas.",
+      "Dossier, trayectoria y calendario con preferencias de espacio.",
+      "Convocatoria cerrada y resuelta; no confundir los espacios disponibles con convocatorias diferentes."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.juntadeandalucia.es/organismos/aaic/areas/artesescenicas-musica/artes-escenicas/residencias/paginas/convocatoria2026.html",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "ESTANCIAS Y RESIDENCIAS / DANZA / TEATRO",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": "Profesional"
+  },
+  {
+    "id": 329,
+    "title": "Ballet Nacional de España · Residencias 2026–2027",
+    "areas": [
+      "Estancias y residencias",
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Madrid",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2026-06-29",
+    "start": null,
+    "deadline": "29/06/2026 · consultar hora en bases",
+    "amount": "Espacio de ensayo gratuito · sin alojamiento",
+    "description": "Artistas y compañías de danza española; investigación o creación.",
+    "requirements": [
+      "Artistas y compañías de danza española; investigación o creación.",
+      "Proyecto, currículo y formulario; actividad de retorno público.",
+      "Programa septiembre de 2026–junio de 2027. La cesión de sala no es una beca económica."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://balletnacional.inaem.gob.es/es/residencias/residencias-artisticas?set_language=es",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "ESTANCIAS Y RESIDENCIAS / DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 330,
+    "title": "Dantzalabea · Residencias 2026",
+    "areas": [
+      "Estancias y residencias",
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Barakaldo",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2026-01-31",
+    "start": null,
+    "deadline": "31/01/2026 · consultar hora en bases",
+    "amount": "Consultar dotación y medios",
+    "description": "Danza contemporánea y movimiento; modalidades para trayectorias consolidadas y emergentes.",
+    "requirements": [
+      "Danza contemporánea y movimiento; modalidades para trayectorias consolidadas y emergentes.",
+      "Cuatro residencias de hasta dos semanas en el Teatro Barakaldo.",
+      "Consultar condiciones territoriales y categoría antes de enviar a una futura edición."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.euskadi.eus/gobierno-vasco/-/noticia/2026/01/12/dantzalabea-convocatoria-de-residencias-artisticas-2025/",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "ESTANCIAS Y RESIDENCIAS / DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 331,
+    "title": "La Caldera · Residencias 2026",
+    "areas": [
+      "Estancias y residencias",
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Barcelona",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2025-06-15T23:59:00+02:00",
+    "start": null,
+    "deadline": "15/06/2025 · consultar hora en bases",
+    "amount": "Investigación desde 2.000 € · técnica desde 1.000 €",
+    "description": "Creación e investigación con el cuerpo y la danza como eje; artistas y colectivos.",
+    "requirements": [
+      "Creación e investigación con el cuerpo y la danza como eje; artistas y colectivos.",
+      "Dos modalidades de una sola convocatoria; dossier y calendario.",
+      "El plazo para el programa de 2026 terminó en junio de 2025. Alojamiento y viaje se negocian según el caso."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://lacaldera.info/index.php/es/residencias/residencias-2026",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "ESTANCIAS Y RESIDENCIAS / DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 332,
+    "title": "EiMa · Investigación y creación profesional 2026",
+    "areas": [
+      "Estancias y residencias",
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Maria de la Salut / Palma",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2026-02-19",
+    "start": null,
+    "deadline": "19/02/2026 · consultar hora en bases",
+    "amount": "Espacio y posible alojamiento · apoyo económico no garantizado",
+    "description": "Danza y artes vivas; al menos dos años de práctica profesional o formación.",
+    "requirements": [
+      "Danza y artes vivas; al menos dos años de práctica profesional o formación.",
+      "Cinco residencias del primer semestre de 2026; proyecto y actividad pública gratuita.",
+      "Para personas no residentes en Mallorca se ofrece alojamiento; consultar calendario y memoria final."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.resad.es/convocatorias/febrero2026/RESIDENCIAS-INVESTIGACION-CREACION-PROFESIONAL-DANZA.pdf",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "ESTANCIAS Y RESIDENCIAS / DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases del organizador · publicadas por RESAD",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 333,
+    "title": "Magalia · II Convocatoria de residencias 2026",
+    "areas": [
+      "Estancias y residencias",
+      "Danza",
+      "Teatro"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Las Navas del Marqués, Ávila",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2026-04-26",
+    "start": null,
+    "deadline": "26/04/2026 · consultar hora en bases",
+    "amount": "3.400–4.100 € según equipo · alojamiento",
+    "description": "Personas adultas con residencia legal y fiscal en España; trayectoria profesional acreditada.",
+    "requirements": [
+      "Personas adultas con residencia legal y fiscal en España; trayectoria profesional acreditada.",
+      "Veinte proyectos, estancias de 14–21 días; dossier en castellano y actividad pública.",
+      "Espacio y alojamiento incluidos; producción, desplazamiento y comidas a cargo del proyecto."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://magalia.inaem.gob.es/wp-content/uploads/2026/04/Bases-Convocatoria-Residencias-CPM-2026.pdf",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "ESTANCIAS Y RESIDENCIAS / DANZA / TEATRO",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": "Profesional"
+  },
+  {
+    "id": 334,
+    "title": "Centro Danza Matadero · I Residencias creativas 2026",
+    "areas": [
+      "Estancias y residencias",
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Madrid",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": null,
+    "start": null,
+    "deadline": "Convocatoria 2026 resuelta · consultar plazo original",
+    "amount": "12.000 € netos por proyecto",
+    "description": "Tres residencias de creación de 4–8 semanas y estreno en Nave 11.",
+    "requirements": [
+      "Tres residencias de creación de 4–8 semanas y estreno en Nave 11.",
+      "Personas adultas de la UE o con residencia legal en España; consultar figura jurídica admitida.",
+      "Convocatoria ya resuelta en febrero de 2026; las bases contienen referencias distintas a días hábiles y naturales."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.centrodanzamatadero.es/sites/default/files/2025-12/BASES%20RESIDENCIAS%20CDM_ANEXOS_0.pdf",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "ESTANCIAS Y RESIDENCIAS / DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": "",
+    "resolutionUrl": "https://www.centrodanzamatadero.es/sites/default/files/2026-03/260206%20NdP%20Residencias%20creativas%20CDM.pdf"
+  },
+  {
+    "id": 335,
+    "title": "CAAM · Artistas en residencia 2026",
+    "areas": [
+      "Estancias y residencias"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Las Palmas de Gran Canaria",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes visuales",
+      "Interdisciplinar"
+    ],
+    "specialties": [],
+    "state": "Cerrada",
+    "end": "2026-09-07T14:00:00+01:00",
+    "start": null,
+    "deadline": "07/09/2026 · consultar hora en bases",
+    "amount": "Consultar dotación en bases",
+    "description": "Personas adultas residentes en España desde al menos seis meses; cinco años de trayectoria en artes visuales.",
+    "requirements": [
+      "Personas adultas residentes en España desde al menos seis meses; cinco años de trayectoria en artes visuales.",
+      "Dos plazas para octubre de 2026; solicitud por sede electrónica.",
+      "El cierre fue a las 14:00, hora de Canarias; exposición posterior de resultados."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://caam.net/convocatorias/programa-artistas-en-residencia-2026/",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "ESTANCIAS Y RESIDENCIAS",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 336,
+    "title": "El Palacio · Residencias 2026–2027",
+    "areas": [
+      "Estancias y residencias"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Gijón",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes visuales",
+      "Interdisciplinar"
+    ],
+    "specialties": [],
+    "state": "Cerrada",
+    "end": "2026-06-11",
+    "start": null,
+    "deadline": "11/06/2026 · consultar hora en bases",
+    "amount": "Consultar recursos y condiciones",
+    "description": "Diez proyectos de creación artística y acción cultural; programa septiembre de 2026–junio de 2027.",
+    "requirements": [
+      "Diez proyectos de creación artística y acción cultural; programa septiembre de 2026–junio de 2027.",
+      "La noticia municipal confirma el cierre y las 306 propuestas recibidas.",
+      "Archivo verificado del programa; consultar las bases completas de la siguiente edición para elegibilidad y medios."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://drupal.gijon.es/es/el-palacio-recibe-306-proyectos-para-su-convocatoria-2026-2027",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "ESTANCIAS Y RESIDENCIAS",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 337,
+    "title": "Casa Garcés · Residencias de verano 2026",
+    "areas": [
+      "Estancias y residencias",
+      "Danza",
+      "Teatro"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Berdún, Huesca",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": null,
+    "start": null,
+    "deadline": "Verano 2026 finalizado · admisión hasta cubrir plazas",
+    "amount": "De pago: 300 €/semana + IVA",
+    "description": "Creación en artes visuales, literatura, danza, teatro, música y otras prácticas.",
+    "requirements": [
+      "Creación en artes visuales, literatura, danza, teatro, música y otras prácticas.",
+      "Estancias de dos semanas a dos meses; selección mediante proyecto, motivación y trayectoria.",
+      "Programa 15 de junio–31 de agosto, ya finalizado. Admisión hasta cubrir plazas; residencia autofinanciada."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://casagarces.org/wp-content/uploads/2026/03/Bases-convocatoria-CCA-verano-26.pdf",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "ESTANCIAS Y RESIDENCIAS / DANZA / TEATRO",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": "Amateur y profesional"
+  },
+  {
+    "id": 338,
+    "title": "La Escocesa · Residencias artísticas 2026",
+    "areas": [
+      "Estancias y residencias"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Barcelona",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes visuales",
+      "Interdisciplinar"
+    ],
+    "specialties": [],
+    "state": "Cerrada",
+    "end": "2025-11-11T23:59:00+01:00",
+    "start": null,
+    "deadline": "11/11/2025 · consultar hora en bases",
+    "amount": "Espacios con cuota · consultar tarifas",
+    "description": "Artistas e investigadores de artes visuales y prácticas contemporáneas.",
+    "requirements": [
+      "Artistas e investigadores de artes visuales y prácticas contemporáneas.",
+      "Talleres para 2026; participación en la comunidad y proyecto de trabajo.",
+      "El cierre fue en noviembre de 2025; no presentar los talleres de pago como becas gratuitas."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://laescocesa.org/es/view/convocatoriaderesidencias/3940",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "ESTANCIAS Y RESIDENCIAS",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 339,
+    "title": "Residencia Premio Caneja 2026",
+    "areas": [
+      "Estancias y residencias"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Aguilar de Campoo, Palencia",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes visuales",
+      "Interdisciplinar"
+    ],
+    "specialties": [],
+    "state": "Cerrada",
+    "end": "2026-04-26",
+    "start": null,
+    "deadline": "26/04/2026 · consultar hora en bases",
+    "amount": "13.000 € brutos para todos los gastos",
+    "description": "Artistas y colectivos con proyectos sobre territorio rural y sostenibilidad.",
+    "requirements": [
+      "Artistas y colectivos con proyectos sobre territorio rural y sostenibilidad.",
+      "Motivación, dossier y propuesta; actividad pública y entrega de una obra acordada.",
+      "La dotación incluye producción, alojamiento y viaje; está sujeta a retención, no son honorarios íntegros."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://diaz-caneja.org/residencia-premio-caneja/",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "ESTANCIAS Y RESIDENCIAS",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 340,
+    "title": "Tabakalera · Proyectos artísticos invierno 2027",
+    "areas": [
+      "Estancias y residencias"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Donostia / San Sebastián",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes visuales",
+      "Interdisciplinar"
+    ],
+    "specialties": [],
+    "state": "Cerrada",
+    "end": "2026-08-10T13:00:00+02:00",
+    "start": null,
+    "deadline": "10/08/2026 · consultar hora en bases",
+    "amount": "Consultar dotación en bases",
+    "description": "Desarrollo de un proyecto artístico en el contexto de Tabakalera.",
+    "requirements": [
+      "Desarrollo de un proyecto artístico en el contexto de Tabakalera.",
+      "El programa es de invierno de 2027, pero las solicitudes cerraron en agosto de 2026.",
+      "Consultar dossier, duración, alojamiento y obligaciones en el PDF enlazado por el centro."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.tabakalera.eus/es/convocatoria-residencia-para-el-desarrollo-de-proyectos-artisticos-2027-invierno/",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "ESTANCIAS Y RESIDENCIAS",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 341,
+    "title": "Tabakalera–Chillida Leku · Arte y paisaje 2026",
+    "areas": [
+      "Estancias y residencias"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Gipuzkoa",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes visuales",
+      "Interdisciplinar"
+    ],
+    "specialties": [],
+    "state": "Cerrada",
+    "end": "2026-04-13T15:00:00+02:00",
+    "start": null,
+    "deadline": "13/04/2026 · consultar hora en bases",
+    "amount": "Consultar dotación en bases",
+    "description": "Residencia específica sobre creación artística y paisaje.",
+    "requirements": [
+      "Residencia específica sobre creación artística y paisaje.",
+      "Convocatoria conjunta de Tabakalera y Chillida Leku; distinta de la residencia general de proyectos.",
+      "Consultar elegibilidad, dossier, recursos y compromisos de la edición siguiente."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.tabakalera.eus/es/convocatoria-de-residencia-tabakalera-chillida-leku-arte-y-paisaje-2026/",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "ESTANCIAS Y RESIDENCIAS",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 342,
+    "title": "Tabakalera · Proyectos de mediación 2026",
+    "areas": [
+      "Estancias y residencias"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Donostia / San Sebastián",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes visuales",
+      "Interdisciplinar"
+    ],
+    "specialties": [],
+    "state": "Cerrada",
+    "end": "2026-05-25T12:00:00+02:00",
+    "start": null,
+    "deadline": "25/05/2026 · consultar hora en bases",
+    "amount": "Consultar dotación y medios",
+    "description": "Mediación cultural y artística; modalidades de proceso y de investigación.",
+    "requirements": [
+      "Mediación cultural y artística; modalidades de proceso y de investigación.",
+      "Una única convocatoria con estancias de seis o tres meses desde septiembre de 2026.",
+      "Seguimiento continuado y reuniones; consultar requisitos de presencia y documentación."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.tabakalera.eus/es/convocatoria-de-residencia-proyectos-de-mediacion-2026-0/",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "ESTANCIAS Y RESIDENCIAS",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 343,
+    "title": "C3A · Residencias artísticas 2025–2026",
+    "areas": [
+      "Estancias y residencias"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Córdoba",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes visuales",
+      "Interdisciplinar"
+    ],
+    "specialties": [],
+    "state": "Cerrada",
+    "end": "2025-08-25T23:59:00+02:00",
+    "start": null,
+    "deadline": "25/08/2025 · consultar hora en bases",
+    "amount": "Hasta 7.000 € para producción y estancia",
+    "description": "Artistas con trayectoria profesional acreditable y proyecto viable.",
+    "requirements": [
+      "Artistas con trayectoria profesional acreditable y proyecto viable.",
+      "Residencia de tres meses; currículo, dossier, método, recursos y calendario.",
+      "El plazo cerró en agosto de 2025 para el programa 2025–2026; archivo, no oferta abierta."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.c3a.es/residencias-y-produccion-en-curso-y-futuras/detalle/-/asset_publisher/pQ0PxnELFHyj/content/convocatoria-residencias-artisticas-2025-26",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "ESTANCIAS Y RESIDENCIAS",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 344,
+    "title": "MUA · XII Residencias de creación 2026",
+    "areas": [
+      "Estancias y residencias"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Alicante",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes visuales",
+      "Interdisciplinar"
+    ],
+    "specialties": [],
+    "state": "Cerrada",
+    "end": "2026-06-07",
+    "start": null,
+    "deadline": "07/06/2026 · consultar hora en bases",
+    "amount": "500 € brutos · complemento 1.000 € en dos plazas",
+    "description": "Cinco proyectos de artes visuales; cualquier edad y nacionalidad.",
+    "requirements": [
+      "Cinco proyectos de artes visuales; cualquier edad y nacionalidad.",
+      "Trabajo en el museo del 14 al 25 de septiembre de 2026 y exposición colectiva.",
+      "El complemento por desplazamiento no corresponde a todos los seleccionados."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://mua.ua.es/residencias/",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "ESTANCIAS Y RESIDENCIAS",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 345,
+    "title": "Bulegoa z/b · Residencia por convocatoria 2027",
+    "areas": [
+      "Estancias y residencias"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Bilbao",
+    "type": "Residencias",
+    "disciplines": [
+      "Artes visuales",
+      "Interdisciplinar"
+    ],
+    "specialties": [],
+    "state": "Cerrada",
+    "end": "2026-05-26",
+    "start": null,
+    "deadline": "26/05/2026 · consultar hora en bases",
+    "amount": "Consultar dotación de esta edición",
+    "description": "Artistas e investigadores en arte y conocimiento; un mes durante 2027.",
+    "requirements": [
+      "Artistas e investigadores en arte y conocimiento; un mes durante 2027.",
+      "Un PDF de hasta 5 MB con dossier, motivación, currículo y contacto.",
+      "Cierre en mayo de 2026; no trasladar automáticamente las cuantías de convocatorias anteriores."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://bulegoa.org/bulegoa-z-b-abre-el-plazo-de-su-residencia-por-convocatoria-3/",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "ESTANCIAS Y RESIDENCIAS",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 346,
+    "title": "CeDan El Paso · I Certamen de Danza 2026",
+    "areas": [
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Sevilla",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-08T15:00:00+02:00",
+    "start": null,
+    "deadline": "08/10/2026 · consultar hora en bases",
+    "amount": "Taquilla íntegra + ayuda de viaje 170–440 €",
+    "description": "Compañías de danza contemporánea de España; obras de 30–85 minutos.",
+    "requirements": [
+      "Compañías de danza contemporánea de España; obras de 30–85 minutos.",
+      "Dossier, vídeo completo y avance, fichas técnicas y artísticas; un espectáculo seleccionado por compañía.",
+      "Ganador programado en 2027 con caché negociado; no hay premio fijo en metálico anunciado."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.atalaya-tnt.com/wp-content/uploads/2026/07/CeDan-el-Paso-Convocatoria.pdf",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 347,
+    "title": "VIII Certamen Coreográfico Vallecas Danza",
+    "areas": [
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Madrid",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2026-04-20T23:59:00+02:00",
+    "start": null,
+    "deadline": "20/04/2026 · consultar hora en bases",
+    "amount": "1.000 € · segundo 500 €",
+    "description": "Personas adultas de cualquier nacionalidad; solo, dúo o grupo de danza contemporánea.",
+    "requirements": [
+      "Personas adultas de cualquier nacionalidad; solo, dúo o grupo de danza contemporánea.",
+      "Pieza de hasta diez minutos, máximo cuatro cambios de luz; vídeo frontal completo.",
+      "Archivo de la edición de junio de 2026; consultar seguros y derechos de la obra."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://vallecasdanza.com/certamen",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 348,
+    "title": "On Stage Dance Competition 2026",
+    "areas": [
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Alcorcón, Madrid",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2026-03-14T00:00:00+01:00",
+    "start": null,
+    "deadline": "14/03/2026 · consultar hora en bases",
+    "amount": "Premio hasta 500 € · inscripción de pago",
+    "description": "Categorías desde seis años y varios estilos; coreografías de dos a cuatro minutos.",
+    "requirements": [
+      "Categorías desde seis años y varios estilos; coreografías de dos a cuatro minutos.",
+      "Inscripción 12–18 € por participante y categoría; cierre anticipado si se completa el cupo.",
+      "La hora de cierre publicada es 00:00 del 14 de marzo, no el final de ese día."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.onstagedancecompetition.com/bases2026",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 349,
+    "title": "31 MASDANZA · Certamen Coreográfico 2026",
+    "areas": [
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Las Palmas de Gran Canaria",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2026-04-17",
+    "start": null,
+    "deadline": "17/04/2026 · consultar hora en bases",
+    "amount": "Primer premio 6.000 € · segundo 4.000 €",
+    "description": "Coreografías de dos a seis intérpretes, de diez a quince minutos, creadas desde enero de 2024.",
+    "requirements": [
+      "Coreografías de dos a seis intérpretes, de diez a quince minutos, creadas desde enero de 2024.",
+      "Vídeo completo, fijo y sin edición, grabado en sala; consultar viajes y alojamiento.",
+      "Certamen celebrado en España; admite otras nacionalidades. Esta ficha recoge la modalidad coreográfica."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.masdanza.com/certamen-coreografico/",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 350,
+    "title": "10 Sentidos · Certamen Coreográfico 2026",
+    "areas": [
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Valencia",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2026-02-15T00:00:00+01:00",
+    "start": null,
+    "deadline": "15/02/2026 · consultar hora en bases",
+    "amount": "2.000 €",
+    "description": "Danza contemporánea; piezas de hasta quince minutos.",
+    "requirements": [
+      "Danza contemporánea; piezas de hasta quince minutos.",
+      "Ocho propuestas seleccionadas; vídeo y ficha técnica con hasta ocho cambios de luz.",
+      "Consultar ayudas de viaje y obligaciones; la fecha publicada cierra a las 00:00."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.institutdelteatre.cat/site1/ca/files/doc11974/260130150553.pdf",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Bases del organizador · publicadas por Institut del Teatre",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 351,
+    "title": "Burgos T-Mueve 2026 · Concurso de videodanza",
+    "areas": [
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Burgos",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2026-07-17",
+    "start": null,
+    "deadline": "17/07/2026 · consultar hora en bases",
+    "amount": "Gratuito · consultar premios",
+    "description": "Personas mayores de 14 años; vídeo de baile de 30–60 segundos, cualquier estilo.",
+    "requirements": [
+      "Personas mayores de 14 años; vídeo de baile de 30–60 segundos, cualquier estilo.",
+      "Publicación en redes con las menciones y etiquetas de las bases.",
+      "Es el concurso T-Mueve: su plazo no se atribuye al certamen escénico Burgos–Nueva York."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.ciudaddeladanza.com/certamen/bases-certamen-internacional-coreografia-burgos-nueva-york.html",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 352,
+    "title": "Sólodos en Danza Ourense 2026",
+    "areas": [
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Ourense",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2026-05-17T23:59:00+02:00",
+    "start": null,
+    "deadline": "17/05/2026 · consultar hora en bases",
+    "amount": "Gira y ayudas en especie · consultar condiciones",
+    "description": "Creadores e intérpretes adultos residentes en España; solo o dúo de ocho a diez minutos.",
+    "requirements": [
+      "Creadores e intérpretes adultos residentes en España; solo o dúo de ocho a diez minutos.",
+      "Vídeo completo sin montaje; representación en espacio no convencional.",
+      "Dos noches de alojamiento para finalistas; el premio de gira no equivale a una beca económica."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.solodos.es/_files/ugd/c6074e_cf45e437932943b88e3e304b3ddcfeb7.pdf",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  },
+  {
+    "id": 353,
+    "title": "CENIT · Certamen de Nuevos Investigadores Teatrales 2026",
+    "areas": [
+      "Teatro",
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Sevilla",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2026-09-11T15:00:00+02:00",
+    "start": null,
+    "deadline": "11/09/2026 · consultar hora en bases",
+    "amount": "Ganador 2.600 € · otras ayudas según bases",
+    "description": "Compañías profesionales de teatro o danza con propuestas de investigación y experimentación.",
+    "requirements": [
+      "Compañías profesionales de teatro o danza con propuestas de investigación y experimentación.",
+      "Espectáculo de 45–90 minutos; dossier, vídeo completo y avance, fichas y fotografías.",
+      "El premio sustituye la remuneración de la función ganadora; seis seleccionados y dos reservas."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.atalaya-tnt.com/wp-content/uploads/2026/05/BASES-CENIT-2026.pdf",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "TEATRO / DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": "Profesional"
+  },
+  {
+    "id": 354,
+    "title": "CINTA · Certamen de Teatro Andaluz 2026",
+    "areas": [
+      "Teatro",
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Sevilla",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Abierta",
+    "end": "2026-09-18T15:00:00+02:00",
+    "start": null,
+    "deadline": "18/09/2026 · consultar hora en bases",
+    "amount": "Taquilla + ayuda de viaje 170–440 €",
+    "description": "Compañías profesionales andaluzas de teatro o danza; propuestas innovadoras de 45–90 minutos.",
+    "requirements": [
+      "Compañías profesionales andaluzas de teatro o danza; propuestas innovadoras de 45–90 minutos.",
+      "Dossier, vídeos completo y avance, fichas y fotos; un espectáculo seleccionado por compañía.",
+      "Ganador programado en MITIN 2027 con caché negociado; seis seleccionados y dos reservas."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.atalaya-tnt.com/wp-content/uploads/2026/06/BASES-CINTA-2026.docx.pdf",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "TEATRO / DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": "Profesional"
+  },
+  {
+    "id": 355,
+    "title": "VI Muestra de Teatro El Perelló 2026",
+    "areas": [
+      "Teatro"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "El Perelló, Valencia",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Cerrada",
+    "end": "2026-09-11",
+    "start": null,
+    "deadline": "11/09/2026 · consultar hora en bases",
+    "amount": "800 € por grupo · complementos según bases",
+    "description": "Grupos españoles sin ánimo de lucro y sin intérpretes profesionales; teatro amateur.",
+    "requirements": [
+      "Grupos españoles sin ánimo de lucro y sin intérpretes profesionales; teatro amateur.",
+      "Obras de 60–120 minutos en castellano o valenciano; dossier, vídeo y documentación.",
+      "Seis grupos seleccionados; consultar complemento federativo y condiciones de cobro."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.teatreamateur.org/wp-content/uploads/2026/08/BASES-VI-MUESTRA-TEATRO-EL-PERELLO-2026.pdf",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "verification": "Convocatoria oficial · FTACV",
+    "verified": true,
+    "theatreLevel": "Amateur"
+  },
+  {
+    "id": 356,
+    "title": "XXXI Mostra de Teatre Amateur Vila d’Ibi",
+    "areas": [
+      "Teatro",
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Ibi, Alicante",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Cerrada",
+    "end": "2026-09-06",
+    "start": null,
+    "deadline": "06/09/2026 · consultar hora en bases",
+    "amount": "1.513 € por grupo seleccionado",
+    "description": "Asociaciones españolas sin ánimo de lucro; teatro y danza amateur.",
+    "requirements": [
+      "Asociaciones españolas sin ánimo de lucro; teatro y danza amateur.",
+      "Dossier, vídeo, CIF, documentación de la asociación y seguros.",
+      "Candidaturas en 2026 para las funciones de enero–febrero de 2027; no confundir el año del espectáculo con el plazo."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.teatreamateur.org/wp-content/uploads/2026/07/Bases-XXXI-Mostra-Teatre-Amateur-Vila-DIbi-2026.pdf",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "TEATRO / DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Convocatoria oficial · FTACV",
+    "verified": true,
+    "theatreLevel": "Amateur"
+  },
+  {
+    "id": 357,
+    "title": "XII Mostra Nacional de Teatre Amateur de Mutxamel 2026",
+    "areas": [
+      "Teatro"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Mutxamel, Alicante",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Cerrada",
+    "end": "2026-07-03",
+    "start": null,
+    "deadline": "03/07/2026 · consultar hora en bases",
+    "amount": "Consultar ayudas en bases",
+    "description": "Muestra de teatro amateur anunciada por la FTACV.",
+    "requirements": [
+      "Muestra de teatro amateur anunciada por la FTACV.",
+      "La ficha oficial confirma la edición y el cierre del 3 de julio.",
+      "Consultar en sus bases federación, duración, documentación y ayudas; no se presume admisión profesional."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.teatreamateur.org/muestras/muestras-federadas/",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "verification": "Convocatoria oficial · FTACV",
+    "verified": true,
+    "theatreLevel": "Amateur"
+  },
+  {
+    "id": 358,
+    "title": "XIX Mostra de Teatre Amateur d’Alginet 2026",
+    "areas": [
+      "Teatro"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Alginet, Valencia",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Cerrada",
+    "end": "2026-06-24",
+    "start": null,
+    "deadline": "24/06/2026 · consultar hora en bases",
+    "amount": "Consultar ayudas en bases",
+    "description": "Grupos de teatro amateur; prioridad a grupos federados.",
+    "requirements": [
+      "Grupos de teatro amateur; prioridad a grupos federados.",
+      "Dossier, vídeo completo disponible y documentos de identificación de la asociación.",
+      "Consultar ficha, permisos de autor y condiciones de la ayuda municipal."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.teatreamateur.org/wp-content/uploads/2026/05/bases-i-fitxa-XIX-mostra-alginet.pdf",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "verification": "Convocatoria oficial · FTACV",
+    "verified": true,
+    "theatreLevel": "Amateur"
+  },
+  {
+    "id": 359,
+    "title": "VII Muestra de Teatro Amateur Siete Aguas 2026",
+    "areas": [
+      "Teatro"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Siete Aguas, Valencia",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Cerrada",
+    "end": "2026-06-30",
+    "start": null,
+    "deadline": "30/06/2026 · consultar hora en bases",
+    "amount": "Consultar ayudas en bases",
+    "description": "Muestra amateur incluida en el registro oficial de la FTACV.",
+    "requirements": [
+      "Muestra amateur incluida en el registro oficial de la FTACV.",
+      "Edición 2026 con plazo hasta el 30 de junio.",
+      "Consultar bases particulares, documentación, requisitos federativos y ayudas."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.teatreamateur.org/muestras/muestras-federadas/",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "verification": "Convocatoria oficial · FTACV",
+    "verified": true,
+    "theatreLevel": "Amateur"
+  },
+  {
+    "id": 360,
+    "title": "II Muestra de Teatro Amateur Torreblanca 2026",
+    "areas": [
+      "Teatro"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Torreblanca, Castellón",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Cerrada",
+    "end": "2026-06-15",
+    "start": null,
+    "deadline": "15/06/2026 · consultar hora en bases",
+    "amount": "Consultar ayudas en bases",
+    "description": "Asociaciones sin ánimo de lucro federadas en la FTACV.",
+    "requirements": [
+      "Asociaciones sin ánimo de lucro federadas en la FTACV.",
+      "Obras de 60–120 minutos en castellano o valenciano; hasta dos propuestas, una seleccionable.",
+      "Dossier y vídeo completo, NIF y permisos; funciones en noviembre de 2026."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.teatreamateur.org/wp-content/uploads/2026/05/Bases-II-Muestra-de-Teatro-Amateur-Torreblanca.pdf",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "verification": "Convocatoria oficial · FTACV",
+    "verified": true,
+    "theatreLevel": "Amateur"
+  },
+  {
+    "id": 361,
+    "title": "Festival de Teatro Requena 2027",
+    "areas": [
+      "Teatro"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Requena, Valencia",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Cerrada",
+    "end": "2026-08-01",
+    "start": null,
+    "deadline": "01/08/2026 · consultar hora en bases",
+    "amount": "900 € por grupo · posibles complementos",
+    "description": "Grupos de la Comunidad Valenciana federados en la FTACV y al corriente de cuotas.",
+    "requirements": [
+      "Grupos de la Comunidad Valenciana federados en la FTACV y al corriente de cuotas.",
+      "Obra en castellano o con subtítulos aportados; dossier y vídeo completo.",
+      "La candidatura cerró en agosto de 2026 para las funciones de enero de 2027."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.teatreamateur.org/wp-content/uploads/2026/05/BASES-FESTIVAL-REQUENA-2027.pdf",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "verification": "Convocatoria oficial · FTACV",
+    "verified": true,
+    "theatreLevel": "Amateur"
+  },
+  {
+    "id": 362,
+    "title": "XXIII Mostra de Teatre Amateur Cullera 2026",
+    "areas": [
+      "Teatro"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Cullera, Valencia",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Cerrada",
+    "end": "2026-05-31",
+    "start": null,
+    "deadline": "31/05/2026 · consultar hora en bases",
+    "amount": "800 € por grupo · premio 1.500 €",
+    "description": "Grupos españoles sin ánimo de lucro; seis seleccionados.",
+    "requirements": [
+      "Grupos españoles sin ánimo de lucro; seis seleccionados.",
+      "Solicitud municipal electrónica, anexos, vídeo completo y permisos.",
+      "Consultar idioma exigido y reserva territorial en las bases antes de preparar la obra."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.teatreamateur.org/wp-content/uploads/2026/05/Bases.pdf",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "verification": "Convocatoria oficial · FTACV",
+    "verified": true,
+    "theatreLevel": "Amateur"
+  },
+  {
+    "id": 363,
+    "title": "XVII Mostra de Teatre Amateur Juan Manuel Ferraro 2026",
+    "areas": [
+      "Teatro"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Torrent, Valencia",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Cerrada",
+    "end": "2026-06-15",
+    "start": null,
+    "deadline": "15/06/2026 · consultar hora en bases",
+    "amount": "Consultar ayudas en bases",
+    "description": "Teatro amateur; convocatoria publicada por la FTACV para Torrent.",
+    "requirements": [
+      "Teatro amateur; convocatoria publicada por la FTACV para Torrent.",
+      "Cierre verificado el 15 de junio de 2026.",
+      "Consultar formulario, documentación, duración y requisitos federativos de la edición."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.teatreamateur.org/wp-content/uploads/2026/05/BASES-XVII-MOSTRA-TAJMF-con-formulario.pdf",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "verification": "Convocatoria oficial · FTACV",
+    "verified": true,
+    "theatreLevel": "Amateur"
+  },
+  {
+    "id": 364,
+    "title": "XIX Mostra de Teatre Amateur Benetússer 2026",
+    "areas": [
+      "Teatro"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Benetússer, Valencia",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Cerrada",
+    "end": "2026-06-15",
+    "start": null,
+    "deadline": "15/06/2026 · consultar hora en bases",
+    "amount": "Consultar ayudas en bases",
+    "description": "Muestra de teatro amateur publicada en el registro de la FTACV.",
+    "requirements": [
+      "Muestra de teatro amateur publicada en el registro de la FTACV.",
+      "Cierre verificado el 15 de junio de 2026.",
+      "Consultar las bases particulares para ayudas, documentación y condiciones de participación."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.teatreamateur.org/muestras/muestras-federadas/",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "verification": "Convocatoria oficial · FTACV",
+    "verified": true,
+    "theatreLevel": "Amateur"
+  },
+  {
+    "id": 365,
+    "title": "XXXII Mostra de Teatre Amateur La Llosa de Ranes 2026",
+    "areas": [
+      "Teatro"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "La Llosa de Ranes, Valencia",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Cerrada",
+    "end": "2026-05-30",
+    "start": null,
+    "deadline": "30/05/2026 · consultar hora en bases",
+    "amount": "Consultar ayudas en bases",
+    "description": "Muestra amateur identificada en el registro oficial de la FTACV.",
+    "requirements": [
+      "Muestra amateur identificada en el registro oficial de la FTACV.",
+      "Cierre verificado el 30 de mayo de 2026.",
+      "Consultar requisitos federativos, material solicitado y ayudas en sus bases."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.teatreamateur.org/muestras/muestras-federadas/",
+    "mode": "Consultar bases",
+    "art": "one",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "verification": "Convocatoria oficial · FTACV",
+    "verified": true,
+    "theatreLevel": "Amateur"
+  },
+  {
+    "id": 366,
+    "title": "XXI Escena Elda · Teatro amateur 2026",
+    "areas": [
+      "Teatro"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Elda, Alicante",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Teatro"
+    ],
+    "state": "Cerrada",
+    "end": "2026-05-31",
+    "start": null,
+    "deadline": "31/05/2026 · consultar hora en bases",
+    "amount": "Consultar ayudas en bases",
+    "description": "Convocatoria de teatro amateur de Elda, publicada con sus bases por la FTACV.",
+    "requirements": [
+      "Convocatoria de teatro amateur de Elda, publicada con sus bases por la FTACV.",
+      "Candidaturas hasta el 31 de mayo de 2026.",
+      "Consultar requisitos, dossier, selección y ayudas específicas del certamen."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://www.teatreamateur.org/wp-content/uploads/2026/03/Bases-Escena-Elda-2026.pdf",
+    "mode": "Consultar bases",
+    "art": "two",
+    "label": "TEATRO",
+    "reviewed": "13/09/2026",
+    "verification": "Convocatoria oficial · FTACV",
+    "verified": true,
+    "theatreLevel": "Amateur"
+  },
+  {
+    "id": 367,
+    "title": "II Certamen de Danza de Tetuán 2026",
+    "areas": [
+      "Danza"
+    ],
+    "country": "España",
+    "scope": "Nacional",
+    "place": "Madrid",
+    "type": "Concursos",
+    "disciplines": [
+      "Artes escénicas"
+    ],
+    "specialties": [
+      "Danza"
+    ],
+    "state": "Abierta",
+    "end": "2026-10-05",
+    "start": null,
+    "deadline": "05/10/2026 · consultar hora en bases",
+    "amount": "Coreografía 5.300 € · intérprete 3.300 €",
+    "description": "Residentes en España; flamenco o danza contemporánea, obras de hasta quince minutos.",
+    "requirements": [
+      "Residentes en España; flamenco o danza contemporánea, obras de hasta quince minutos.",
+      "Hasta ocho bailarines y tres músicos; coreografía creada desde 2024 y vídeo completo.",
+      "Presentación por sede electrónica; final el 30 de octubre. Consultar todos los límites técnicos."
+    ],
+    "next": "Consulta las bases enlazadas, confirma que cumples los requisitos y prepara la documentación. Si está cerrada, sigue la siguiente edición.",
+    "url": "https://diario.madrid.es/blog/notas-de-prensa/el-ii-certamen-de-danza-de-tetuan-abre-el-plazo-de-inscripciones-a-coreografias-de-flamenco-y-contemporaneo/",
+    "mode": "Consultar bases",
+    "art": "three",
+    "label": "DANZA",
+    "reviewed": "13/09/2026",
+    "verification": "Fuente oficial",
+    "verified": true,
+    "theatreLevel": ""
+  }
+]

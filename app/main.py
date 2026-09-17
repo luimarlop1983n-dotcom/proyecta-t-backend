@@ -1,7 +1,7 @@
 
 from fastapi import FastAPI, Depends, HTTPException, Header
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, EmailStr
 from sqlalchemy import create_engine, Column, Integer, String, Text, Boolean, ForeignKey, UniqueConstraint, select, delete
@@ -9,7 +9,9 @@ from sqlalchemy.orm import declarative_base, sessionmaker, Session
 from pathlib import Path
 from typing import Optional
 from datetime import date
-import os, secrets, hashlib
+import os, secrets, hashlib, json, csv, io
+from datetime import datetime, timezone
+from .freshness import state as freshness_state
 
 from .sources.manual import verified_seed
 from .sources.cultura import fetch_index as cultura_fetch
@@ -43,7 +45,34 @@ class Favorite(Base):
 class Application(Base):
     __tablename__="applications"; id=Column(Integer,primary_key=True); user_id=Column(Integer,ForeignKey("users.id")); opportunity_id=Column(Integer,ForeignKey("opportunities.id"))
     status=Column(String(80),default="En preparación"); __table_args__=(UniqueConstraint("user_id","opportunity_id"),)
+class OpportunityEvidence(Base):
+    __tablename__ = "opportunity_evidence"
+    opportunity_id = Column(Integer, ForeignKey("opportunities.id"), primary_key=True)
+    payload = Column(Text, nullable=False, default="{}")
+
+class CatalogRelease(Base):
+    __tablename__ = "catalog_releases"
+    version = Column(String(100), primary_key=True)
+
 Base.metadata.create_all(engine)
+CATEGORIES = json.loads((ROOT/"app/data/categories.json").read_text())
+
+def evidence_for(o, db):
+    record = db.get(OpportunityEvidence, o.id)
+    return json.loads(record.payload) if record else {}
+
+def availability(o, db):
+    return freshness_state(o.status, o.deadline, evidence_for(o, db))
+
+def serialize(o, db):
+    evidence = evidence_for(o, db)
+    current = freshness_state(o.status, o.deadline, evidence)
+    return {**{k:getattr(o,k) for k in ("id","title","org","type","location","deadline","amount","summary","source","source_name","tags")},
+            "status": current, "verified": current == "verified", "categories": evidence.get("categories", []),
+            "last_activity_at": evidence.get("last_activity_at"), "last_checked_at": evidence.get("last_checked_at"),
+            "evidence": evidence.get("evidence", "Sin comprobación documentada"),
+            "legacy": evidence.get("legacy"), "eligibility_notes": o.eligibility_notes}
+
 
 def dbdep():
     db=SessionLocal()
@@ -57,7 +86,7 @@ def current_user(authorization:Optional[str]=Header(None),db:Session=Depends(dbd
     if not st: raise HTTPException(401,"Sesión inválida")
     return db.get(User,st.user_id)
 def admin(x_admin_token:Optional[str]=Header(None)):
-    if x_admin_token!=os.getenv("ADMIN_TOKEN",""): raise HTTPException(403,"Admin no autorizado")
+    if not os.getenv("ADMIN_TOKEN") or not x_admin_token or not secrets.compare_digest(x_admin_token, os.environ["ADMIN_TOKEN"]): raise HTTPException(403,"Admin no autorizado")
     return True
 
 def upsert(db,raw):
@@ -65,11 +94,17 @@ def upsert(db,raw):
     if not o: o=Opportunity(external_key=raw.external_key); db.add(o)
     for k in ["title","org","type","location","deadline","amount","summary","source","verified","tags","min_age","max_age","source_name","source_kind"]:
         setattr(o,k,getattr(raw,k))
-    o.eligibility_notes="\n".join(raw.eligibility_notes); o.status="open"
+    o.eligibility_notes="\n".join(raw.eligibility_notes)
+    # Discovery is not proof of activity; never reopen a closed record on import.
+    if not o.status: o.status="open"
     return o
 
-def eligibility(o,u):
+def eligibility(o,u,db):
     reasons=[]; unknown=[]
+    current = availability(o, db)
+    if current == "closed": reasons.append("Convocatoria cerrada")
+    elif current in ("stale", "unverified"): unknown.append("Actividad de la oferta sin verificar")
+    if o.eligibility_notes: unknown.append(o.eligibility_notes)
     if o.source_kind!="opportunity": return {"eligible":False,"reasons":["No es una convocatoria abierta"],"unknown":[],"complete":True}
     if o.min_age is not None or o.max_age is not None:
         if not u.birth_year: unknown.append("Año de nacimiento")
@@ -88,7 +123,7 @@ def score(o,u,e):
     s=48+hits*8+(8 if o.verified else 0)-(8 if not e["complete"] else 0)
     return max(1,min(98,s))
 
-app=FastAPI(title="PROYECTA+ API",version="0.4.0")
+app=FastAPI(title="PROYECTA+ API",version="0.5.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -104,7 +139,7 @@ class Profile(BaseModel): name:str=""; discipline:str=""; location:str=""; inter
 class DossierReq(BaseModel): opportunity_id:int; project_focus:str
 
 @app.get("/")
-def home(): return FileResponse(ROOT/"app"/"static"/"index.html")
+def home(): return FileResponse(ROOT/"dist"/"index.html")
 @app.post("/api/signup")
 def signup(d:Signup,db:Session=Depends(dbdep)):
     if len(d.password)<8: raise HTTPException(400,"Contraseña mínima 8 caracteres")
@@ -122,14 +157,41 @@ def me(u:User=Depends(current_user)): return {"id":u.id,"email":u.email,"name":u
 def update_me(d:Profile,u:User=Depends(current_user),db:Session=Depends(dbdep)):
     for k,v in d.model_dump().items(): setattr(u,k,v)
     db.commit(); return {"ok":True}
+@app.get("/api/categories")
+def categories(): return CATEGORIES
+
+@app.get("/api/catalog")
+def public_catalog(include_inactive:bool=False, category:str="", db:Session=Depends(dbdep)):
+    rows = [serialize(o,db) for o in db.scalars(select(Opportunity).where(Opportunity.source_kind=="opportunity")).all()]
+    return [o for o in rows if (include_inactive or o["status"] == "verified") and (not category or category in o["categories"])]
+
+@app.get("/api/catalog.csv")
+def catalog_csv(db:Session=Depends(dbdep)):
+    output=io.StringIO()
+    writer=csv.writer(output)
+    writer.writerow(["Título","Organización","Estado","Plazo","Fuente","Última comprobación"])
+    for o in public_catalog(include_inactive=True, db=db):
+        # Prevent formula execution when a downloaded CSV is opened in a spreadsheet.
+        values=[o[k] or "" for k in ("title","org","status","deadline","source","last_checked_at")]
+        writer.writerow(["'"+str(v) if str(v).startswith(("=","+","-","@")) else v for v in values])
+    return Response(output.getvalue(),media_type="text/csv; charset=utf-8",headers={"Content-Disposition":"attachment; filename=proyecta-t-catalogo.csv"})
+
+@app.get("/api/training")
+def training(category:str="", region:str="", mode:str=""):
+    rows=json.loads((ROOT/"app/data/training.json").read_text())
+    for row in rows:
+        row["status"] = freshness_state("open", "", row)
+    return [r for r in rows if (not category or category in r["categories"]) and (not region or region == r["region"]) and (not mode or mode in r["modes"])]
+
 @app.get("/api/opportunities")
-def list_opportunities(u:User=Depends(current_user),db:Session=Depends(dbdep)):
+def list_opportunities(include_inactive:bool=False,u:User=Depends(current_user),db:Session=Depends(dbdep)):
     out=[]
-    for o in db.scalars(select(Opportunity).where(Opportunity.status=="open",Opportunity.source_kind=="opportunity")).all():
-        e=eligibility(o,u)
-        out.append({"id":o.id,"title":o.title,"org":o.org,"type":o.type,"location":o.location,"deadline":o.deadline,"amount":o.amount,
-                    "summary":o.summary,"source":o.source,"verified":o.verified,"source_name":o.source_name,"match":score(o,u,e),"eligibility":e})
-    return sorted(out,key=lambda x:(x["eligibility"]["eligible"],x["match"],x["verified"]),reverse=True)
+    for o in db.scalars(select(Opportunity).where(Opportunity.source_kind=="opportunity")).all():
+        row=serialize(o,db)
+        if not include_inactive and row["status"] in ("closed", "stale"): continue
+        e=eligibility(o,u,db)
+        out.append({**row,"match":score(o,u,e),"eligibility":e})
+    return sorted(out,key=lambda x:(x["verified"],x["match"]),reverse=True)
 @app.get("/api/intelligence/historical")
 def historical(u:User=Depends(current_user),db:Session=Depends(dbdep)):
     return [{"id":o.id,"title":o.title,"org":o.org,"summary":o.summary,"source":o.source,"source_name":o.source_name}
@@ -153,7 +215,7 @@ def apps(u:User=Depends(current_user),db:Session=Depends(dbdep)):
 def makeapp(oid:int,u:User=Depends(current_user),db:Session=Depends(dbdep)):
     o=db.get(Opportunity,oid)
     if not o: raise HTTPException(404,"No encontrada")
-    e=eligibility(o,u)
+    e=eligibility(o,u,db)
     if not e["eligible"] or not e["complete"]: raise HTTPException(400,"Elegibilidad no confirmada")
     if not db.scalar(select(Application).where(Application.user_id==u.id,Application.opportunity_id==oid)): db.add(Application(user_id=u.id,opportunity_id=oid)); db.commit()
     return {"ok":True}
@@ -164,14 +226,16 @@ def sent(oid:int,u:User=Depends(current_user),db:Session=Depends(dbdep)):
     a.status="Enviada"; db.commit(); return {"ok":True}
 @app.post("/api/dossier")
 def dossier(d:DossierReq,u:User=Depends(current_user),db:Session=Depends(dbdep)):
-    o=db.get(Opportunity,d.opportunity_id); e=eligibility(o,u)
+    o=db.get(Opportunity,d.opportunity_id)
+    if not o: raise HTTPException(404,"No encontrada")
+    e=eligibility(o,u,db)
     if not e["eligible"] or not e["complete"]: raise HTTPException(400,"Elegibilidad no confirmada")
     return {"bio":f"{u.name or 'Profesional creativo/a'} desarrolla su trabajo en {u.discipline or 'el ámbito cultural'}, con intereses en {u.interests or 'creación contemporánea'}.",
             "motivation":f"Presento esta propuesta a «{o.title}» por su encaje con mi trayectoria y con el proyecto: {d.project_focus}. Revisar siempre contra las bases oficiales.",
             "checklist":["Leer bases","Confirmar requisitos","Adaptar CV","Preparar memoria","Revisar y enviar"]}
 @app.post("/api/admin/seed")
 def seed(_:bool=Depends(admin),db:Session=Depends(dbdep)):
-    rows=verified_seed()+[dataset_descriptor()]
+    rows=[dataset_descriptor()]
     for r in rows: upsert(db,r)
     db.commit(); return {"ok":True,"count":len(rows)}
 @app.post("/api/admin/sync/cultura")
@@ -189,4 +253,42 @@ def stats(_:bool=Depends(admin),db:Session=Depends(dbdep)):
     all_rows=list(db.scalars(select(Opportunity)).all())
     return {"total":len(all_rows),"opportunities":sum(1 for o in all_rows if o.source_kind=="opportunity"),"historical":sum(1 for o in all_rows if o.source_kind=="historical"),"verified":sum(1 for o in all_rows if o.verified)}
 @app.get("/api/health")
-def health(): return {"ok":True,"version":"0.4.0"}
+def health(): return {"ok":True,"version":"0.5.0"}
+
+
+def import_catalog():
+    """Additive release, executed once. Old IDs, favorites and applications survive."""
+    with SessionLocal() as db:
+        # PostgreSQL serializes rolling deployments before checking the release marker.
+        if engine.dialect.name == "postgresql":
+            from sqlalchemy import text
+            db.execute(text("SELECT pg_advisory_xact_lock(20260917)"))
+        if db.get(CatalogRelease, "2026-09-17-v1"): return
+        rows=json.loads((ROOT/"app/data/catalog.json").read_text())
+        for row in rows:
+            o=db.scalar(select(Opportunity).where(Opportunity.external_key==row["external_key"]))
+            if not o:
+                o=Opportunity(external_key=row["external_key"])
+                db.add(o)
+            for k in ("title","org","type","location","deadline","amount","summary","source","source_name","tags","status","min_age","max_age","eligibility_notes"):
+                if k in row: setattr(o,k,row[k])
+            o.source_kind="opportunity"
+            o.verified=bool(row.get("verified"))
+            db.flush()
+            ev=db.get(OpportunityEvidence,o.id)
+            if not ev: ev=OpportunityEvidence(opportunity_id=o.id); db.add(ev)
+            ev.payload=json.dumps({k:row.get(k) for k in ("categories","last_activity_at","last_checked_at","verified","evidence","legacy")},ensure_ascii=False)
+        db.add(CatalogRelease(version="2026-09-17-v1"))
+        db.commit()
+
+import_catalog()
+
+@app.middleware("http")
+async def live_cache_policy(request, call_next):
+    response=await call_next(request)
+    if request.url.path.startswith("/api/") or request.url.path.endswith((".html", ".js")) or request.url.path == "/":
+        response.headers["Cache-Control"]="no-store"
+    return response
+
+# Keep API routes before the shared website mount; HTML directory aliases work on Android too.
+app.mount("/", StaticFiles(directory=ROOT/"dist", html=True), name="web")

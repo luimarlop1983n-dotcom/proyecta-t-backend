@@ -11,24 +11,7 @@ def fetch_index():
         "User-Agent": "Mozilla/5.0 (compatible; PROYECTAPlus/0.4)"
     }
 
-    try:
-        r = httpx.get(
-            INDEX_URL,
-            timeout=30,
-            headers=headers,
-            follow_redirects=True
-        )
-    except (httpx.ConnectError, ssl.SSLError) as exc:
-        if "CERTIFICATE_VERIFY_FAILED" not in str(exc):
-            raise
-
-        r = httpx.get(
-            INDEX_URL,
-            timeout=30,
-            headers=headers,
-            follow_redirects=True,
-            verify=False
-        )
+    r = httpx.get(INDEX_URL, timeout=30, headers=headers, follow_redirects=True)
 
     r.raise_for_status()
     text = BeautifulSoup(r.text, "html.parser").get_text("\n", strip=True)

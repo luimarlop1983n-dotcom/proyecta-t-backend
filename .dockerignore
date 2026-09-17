@@ -1,0 +1,10 @@
+.git
+node_modules
+www
+android
+tests
+test-results
+__pycache__
+*.db
+.env
+.venv

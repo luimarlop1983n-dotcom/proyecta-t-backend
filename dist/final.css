@@ -1,0 +1,44 @@
+html { color-scheme: dark; scroll-behavior: smooth; }
+body { font-size: 16px; }
+.skip-link { position: absolute; left: 16px; top: -100px; z-index: 20; padding: 10px 16px; background: #c3a3ff; color: #20152e; border-radius: 6px; }
+.skip-link:focus { top: 16px; }
+body.radar .hero { display: block; min-height: 0; padding: 20px 0 10px; }
+body.radar .hero .scene, body.radar .hero .primary, body.radar .ribbon { display: none; }
+body.radar .hero h1 { font-size: clamp(36px, 4vw, 54px); letter-spacing: -1.5px; margin: 14px 0; }
+body.radar .hero p { max-width: 750px; font-size: 16px; margin: 12px 0; }
+body.radar .section { padding-top: 24px; }
+body.radar .section-top h2 { font-size: 28px; }
+body.radar .tools { margin: 20px 0; }
+.chip, .scope-tabs .chip, .filter-grid label, nav button, .detail, .call-date, .status, .card-bottom, .field, .outline, .count { font-size: 14px; }
+.filter-grid input, .filter-grid select, .search input { min-height: 46px; font-size: 16px; }
+.small-label, .eyebrow, .art-label, .scope-tabs span, footer { font-size: 12px; }
+.card p, dialog p, dialog li { font-size: 16px; }
+.card h3 { font-size: 28px; }
+.card-body { padding: 22px; }
+.meta { font-size: 12px; flex-wrap: wrap; }
+.status { line-height: 1.6; color: #bfdcc8; }
+.scope-note, .storage-note { font-size: 14px; }
+.save { width: 44px; height: 44px; }
+.close { width: 44px; height: 44px; font-size: 24px; }
+.card-bottom { gap: 16px; flex-wrap: wrap; }
+.card-bottom span { flex: 1; min-width: 120px; }
+.more-results { display: flex; flex-direction: column; align-items: center; gap: 10px; margin-top: 32px; }
+.more-results p { margin: 0; font-size: 14px; }
+.official-link { display: inline-block; }
+.filter-grid { align-items: end; }
+.scope-tabs { margin-top: 20px; }
+body.radar .path { margin-top: 20px; }
+@media(max-width:620px) {
+  header { height: auto; min-height: 110px; padding-top: 14px; padding-bottom: 14px; gap: 14px; }
+  nav { flex-wrap: wrap; gap: 12px; }
+  nav button { font-size: 14px; min-height: 40px; }
+  body.radar .hero { padding-top: 10px; }
+  body.radar .hero h1 { font-size: 38px; }
+  .scope-tabs { display: flex; }
+  .scope-tabs .chip { flex: 1; font-size: 14px; padding: 12px; }
+  .scope-tabs button:first-child { flex-basis: 100%; }
+  .empty { padding: 30px 20px; }
+  dialog { padding: 24px; }
+  .dialog-actions > * { flex: 1 1 160px; white-space: normal; }
+}
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior: auto; } }

@@ -1,0 +1,262 @@
+[
+  {
+    "id": "noble",
+    "title": "Academia de tatuaje",
+    "org": "Noble Art",
+    "categories": [
+      "Tatuaje"
+    ],
+    "region": "Comunitat Valenciana",
+    "modes": [
+      "Presencial",
+      "Online"
+    ],
+    "source": "https://nobleart.com/",
+    "summary": "Academia anunciada en Valencia y online. Pedir temario, tutorías, práctica supervisada y requisitos sanitarios aplicables antes de matricularse.",
+    "qualification": "Formación privada; no se presenta como título oficial",
+    "admission_status": "Consultar plazas y matrícula con el centro",
+    "verified": true,
+    "last_activity_at": "2026-09-17T10:30:00Z",
+    "last_checked_at": "2026-09-17T10:30:00Z",
+    "evidence": "Programa publicado en la web oficial del centro o administración, consultada el 17/09/2026. No acredita matrícula abierta.",
+    "cost": "Consultar precio o tasas con el centro"
+  },
+  {
+    "id": "apr-pel",
+    "title": "Peluquería y Cosmética Capilar",
+    "org": "CIPFP Ciutat de l’Aprenent",
+    "categories": [
+      "Peluquería"
+    ],
+    "region": "Comunitat Valenciana",
+    "modes": [
+      "Presencial"
+    ],
+    "source": "https://fpaprenent.com/departamentos/imagen-personal/",
+    "summary": "Centro público de Valencia. Su departamento de Imagen Personal incluye este ciclo; confirmar modalidad y calendario de acceso.",
+    "qualification": "FP oficial",
+    "admission_status": "Consultar plazas y matrícula con el centro",
+    "verified": true,
+    "last_activity_at": "2026-09-17T10:30:00Z",
+    "last_checked_at": "2026-09-17T10:30:00Z",
+    "evidence": "Programa publicado en la web oficial del centro o administración, consultada el 17/09/2026. No acredita matrícula abierta.",
+    "cost": "Consultar precio o tasas con el centro"
+  },
+  {
+    "id": "apr-est",
+    "title": "Estética y Belleza",
+    "org": "CIPFP Ciutat de l’Aprenent",
+    "categories": [
+      "Estética",
+      "Maquillaje"
+    ],
+    "region": "Comunitat Valenciana",
+    "modes": [
+      "Presencial"
+    ],
+    "source": "https://fpaprenent.com/departamentos/imagen-personal/",
+    "summary": "Centro público de Valencia. Su departamento de Imagen Personal incluye este ciclo; confirmar modalidad y calendario de acceso.",
+    "qualification": "FP oficial",
+    "admission_status": "Consultar plazas y matrícula con el centro",
+    "verified": true,
+    "last_activity_at": "2026-09-17T10:30:00Z",
+    "last_checked_at": "2026-09-17T10:30:00Z",
+    "evidence": "Programa publicado en la web oficial del centro o administración, consultada el 17/09/2026. No acredita matrícula abierta.",
+    "cost": "Consultar precio o tasas con el centro"
+  },
+  {
+    "id": "apr-dir",
+    "title": "Estilismo y Dirección de Peluquería",
+    "org": "CIPFP Ciutat de l’Aprenent",
+    "categories": [
+      "Peluquería",
+      "Estilismo/Moda"
+    ],
+    "region": "Comunitat Valenciana",
+    "modes": [
+      "Presencial"
+    ],
+    "source": "https://fpaprenent.com/departamentos/imagen-personal/",
+    "summary": "Centro público de Valencia. Su departamento de Imagen Personal incluye este ciclo; confirmar modalidad y calendario de acceso.",
+    "qualification": "FP oficial",
+    "admission_status": "Consultar plazas y matrícula con el centro",
+    "verified": true,
+    "last_activity_at": "2026-09-17T10:30:00Z",
+    "last_checked_at": "2026-09-17T10:30:00Z",
+    "evidence": "Programa publicado en la web oficial del centro o administración, consultada el 17/09/2026. No acredita matrícula abierta.",
+    "cost": "Consultar precio o tasas con el centro"
+  },
+  {
+    "id": "apr-bien",
+    "title": "Estética Integral y Bienestar",
+    "org": "CIPFP Ciutat de l’Aprenent",
+    "categories": [
+      "Estética"
+    ],
+    "region": "Comunitat Valenciana",
+    "modes": [
+      "Presencial"
+    ],
+    "source": "https://fpaprenent.com/departamentos/imagen-personal/",
+    "summary": "Centro público de Valencia. Su departamento de Imagen Personal incluye este ciclo; confirmar modalidad y calendario de acceso.",
+    "qualification": "FP oficial",
+    "admission_status": "Consultar plazas y matrícula con el centro",
+    "verified": true,
+    "last_activity_at": "2026-09-17T10:30:00Z",
+    "last_checked_at": "2026-09-17T10:30:00Z",
+    "evidence": "Programa publicado en la web oficial del centro o administración, consultada el 17/09/2026. No acredita matrícula abierta.",
+    "cost": "Consultar precio o tasas con el centro"
+  },
+  {
+    "id": "fp-pel",
+    "title": "Técnico en Peluquería y Cosmética Capilar",
+    "org": "TodoFP · Ministerio de Educación",
+    "categories": [
+      "Peluquería"
+    ],
+    "region": "España",
+    "modes": [
+      "Según centro"
+    ],
+    "source": "https://www.todofp.es/que-estudiar/familias-profesionales/imagen-personal/peluqueria-cosmetica-capilar.html",
+    "summary": "Ruta de FP con buscador de centros autorizados; consulta acceso y oferta en tu comunidad.",
+    "qualification": "FP oficial de grado medio",
+    "admission_status": "Consultar plazas y matrícula con el centro",
+    "verified": true,
+    "last_activity_at": "2026-09-17T10:30:00Z",
+    "last_checked_at": "2026-09-17T10:30:00Z",
+    "evidence": "Programa publicado en la web oficial del centro o administración, consultada el 17/09/2026. No acredita matrícula abierta.",
+    "cost": "Consultar precio o tasas con el centro"
+  },
+  {
+    "id": "fp-maq",
+    "title": "Técnico Superior en Caracterización y Maquillaje Profesional",
+    "org": "TodoFP · Ministerio de Educación",
+    "categories": [
+      "Maquillaje",
+      "Peluquería"
+    ],
+    "region": "España",
+    "modes": [
+      "Según centro"
+    ],
+    "source": "https://todofp.es/que-estudiar/familias-profesionales/imagen-personal/caracterizacion-maquillaje-profesional.html",
+    "summary": "Ciclo de 2.000 horas para caracterización escénica y audiovisual, maquillaje y posticería. Incluye acceso al directorio de centros.",
+    "qualification": "FP oficial de grado superior",
+    "admission_status": "Consultar plazas y matrícula con el centro",
+    "verified": true,
+    "last_activity_at": "2026-09-17T10:30:00Z",
+    "last_checked_at": "2026-09-17T10:30:00Z",
+    "evidence": "Programa publicado en la web oficial del centro o administración, consultada el 17/09/2026. No acredita matrícula abierta.",
+    "cost": "Consultar precio o tasas con el centro"
+  },
+  {
+    "id": "easd-moda",
+    "title": "Diseño de Moda",
+    "org": "EASD València",
+    "categories": [
+      "Estilismo/Moda"
+    ],
+    "region": "Comunitat Valenciana",
+    "modes": [
+      "Presencial"
+    ],
+    "source": "https://www.easdvalencia.com/oferta-educativa/",
+    "summary": "Enseñanzas de diseño en centro público; revisar pruebas de acceso, portfolio y calendario de admisión.",
+    "qualification": "Enseñanzas artísticas superiores",
+    "admission_status": "Consultar plazas y matrícula con el centro",
+    "verified": true,
+    "last_activity_at": "2026-09-17T10:30:00Z",
+    "last_checked_at": "2026-09-17T10:30:00Z",
+    "evidence": "Programa publicado en la web oficial del centro o administración, consultada el 17/09/2026. No acredita matrícula abierta.",
+    "cost": "Consultar precio o tasas con el centro"
+  },
+  {
+    "id": "easd-joy",
+    "title": "Joyería Artística",
+    "org": "EASD València",
+    "categories": [
+      "Joyería",
+      "Artesanía"
+    ],
+    "region": "Comunitat Valenciana",
+    "modes": [
+      "Presencial"
+    ],
+    "source": "https://www.easdvalencia.com/ciclo/ciclo-de-joyeria-artistica/",
+    "summary": "Diseño y producción de joyas, técnicas de taller y herramientas digitales. Consultar acceso al ciclo.",
+    "qualification": "Ciclo de Artes Plásticas y Diseño",
+    "admission_status": "Consultar plazas y matrícula con el centro",
+    "verified": true,
+    "last_activity_at": "2026-09-17T10:30:00Z",
+    "last_checked_at": "2026-09-17T10:30:00Z",
+    "evidence": "Programa publicado en la web oficial del centro o administración, consultada el 17/09/2026. No acredita matrícula abierta.",
+    "cost": "Consultar precio o tasas con el centro"
+  },
+  {
+    "id": "manises",
+    "title": "Cerámica Artística · curso 2026/2027",
+    "org": "Escola d’Art i Superior de Ceràmica de Manises",
+    "categories": [
+      "Artesanía"
+    ],
+    "region": "Comunitat Valenciana",
+    "modes": [
+      "Presencial"
+    ],
+    "source": "https://esceramica.com/servicios/ciclo-formativo-de-ceramica-artistica-2026-2027/",
+    "summary": "Programa y procedimiento de acceso publicados para 2026/2027. Comprobar vacantes y plazos concretos; la publicación del curso no implica matrícula abierta.",
+    "qualification": "Ciclo de Artes Plásticas y Diseño",
+    "admission_status": "Consultar plazas y matrícula con el centro",
+    "verified": true,
+    "last_activity_at": "2026-09-17T10:30:00Z",
+    "last_checked_at": "2026-09-17T10:30:00Z",
+    "evidence": "Programa publicado en la web oficial del centro o administración, consultada el 17/09/2026. No acredita matrícula abierta.",
+    "cost": "Consultar precio o tasas con el centro"
+  },
+  {
+    "id": "caz-form",
+    "title": "Formación en imagen personal",
+    "org": "Cazcarra Image School",
+    "categories": [
+      "Estilismo/Moda",
+      "Maquillaje",
+      "Estética"
+    ],
+    "region": "España",
+    "modes": [
+      "Presencial",
+      "Online"
+    ],
+    "source": "https://cazcarra.com/formacion/",
+    "summary": "Oferta en asesoría de imagen y belleza con distintas modalidades. Confirmar el programa exacto, titulación, horas prácticas y coste.",
+    "qualification": "Varía por programa: consultar ficha específica",
+    "admission_status": "Consultar plazas y matrícula con el centro",
+    "verified": true,
+    "last_activity_at": "2026-09-17T10:30:00Z",
+    "last_checked_at": "2026-09-17T10:30:00Z",
+    "evidence": "Programa publicado en la web oficial del centro o administración, consultada el 17/09/2026. No acredita matrícula abierta.",
+    "cost": "Consultar precio o tasas con el centro"
+  },
+  {
+    "id": "caz-ojos",
+    "title": "Ahumados y difuminados",
+    "org": "Cazcarra Image School",
+    "categories": [
+      "Maquillaje"
+    ],
+    "region": "Online",
+    "modes": [
+      "Online"
+    ],
+    "source": "https://cazcarra.com/ahumados-y-difuminados/",
+    "summary": "Curso de especialización en maquillaje de ojos. Formación complementaria; no sustituye prácticas supervisadas.",
+    "qualification": "Curso privado de especialización",
+    "admission_status": "Consultar plazas y matrícula con el centro",
+    "verified": true,
+    "last_activity_at": "2026-09-17T10:30:00Z",
+    "last_checked_at": "2026-09-17T10:30:00Z",
+    "evidence": "Programa publicado en la web oficial del centro o administración, consultada el 17/09/2026. No acredita matrícula abierta.",
+    "cost": "Consultar precio o tasas con el centro"
+  }
+]
