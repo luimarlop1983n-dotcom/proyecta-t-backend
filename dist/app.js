@@ -2,6 +2,7 @@
   if(!/^https?:$/.test(location.protocol))return;
   const native=!!window.Capacitor?.isNativePlatform?.();
   if(native && !new URLSearchParams(location.search).has('portada') && /^\/(index.html)?$/.test(location.pathname)){location.replace('/cuenta/index.html');return;}
+  import('/community.js').catch(()=>{});
   const account=document.createElement('a');account.href='/cuenta/index.html';account.textContent='Mi espacio →';account.className='account-link';
   const accountNav=document.querySelector('header');if(accountNav&&!location.pathname.startsWith('/cuenta/'))accountNav.append(account);
   const standalone=()=>matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;

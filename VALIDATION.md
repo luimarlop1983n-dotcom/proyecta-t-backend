@@ -28,3 +28,7 @@
 Registro con nombre opcional, recuperación por SMTP con enlace de 30 minutos, hash en base de datos, consumo transaccional y revocación de sesiones. Vista previa segura del contenido en lista/editor/exportación y dossier de cuenta, incluidos cambios sin guardar.
 
 Validación: 11 pruebas de backend, 6 pruebas de lógica frontend y 26 recorridos de cuenta/vista previa en escritorio y móvil superados. Compilación compartida web/Capacitor correcta. SMTP simulado en pruebas: envío real y verificación del remitente pendientes de configuración en Railway. Cambios aún no publicados por falta de autorización de escritura de GitHub.
+
+## Comunidad · 01/10/2026
+
+Contador público de sesiones web/app y opiniones de ayuda. Incrementos idempotentes y atómicos en la misma base Railway. Dos pruebas backend (incluida concurrencia) y seis recorridos de navegador móvil/escritorio superados: deduplicación, fallos y actualización visible cada diez segundos. No son visitantes únicos verificados ni una analítica resistente a bots.

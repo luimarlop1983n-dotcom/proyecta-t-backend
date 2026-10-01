@@ -154,6 +154,9 @@ def login(d:Login,db:Session=Depends(dbdep)):
 from .password_reset import install as install_recovery
 PasswordReset, RecoveryLimit = install_recovery(app, Base, engine, SessionLocal, dbdep, User, SessionToken, hashpw)
 
+from .community import install as install_community
+CommunityEvent, CommunityTotal = install_community(app, Base, engine, dbdep)
+
 @app.get("/api/me")
 def me(u:User=Depends(current_user)): return {"id":u.id,"email":u.email,"name":u.name,"discipline":u.discipline,"location":u.location,"interests":u.interests,"birth_year":u.birth_year,"plan":u.plan}
 @app.put("/api/me")

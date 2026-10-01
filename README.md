@@ -67,3 +67,9 @@ El enlace caduca a los 30 minutos, se almacena solo su hash y se consume de form
 Referencia de diseño: https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html
 
 Registro: correo y contraseña, nombre opcional y perfil posterior. Vista previa: documentos guardados, editor, exportación y dossier de cuenta; renderiza texto de forma segura y no envía el contenido a ningún servicio. La vista previa es del contenido, no una reproducción exacta de la paginación de Word/PDF.
+
+### Contadores públicos de comunidad
+
+`GET /api/community` devuelve visitas (sesiones) y votos de ayuda. `POST /api/community/visit` acepta `session_id` UUID; `POST /api/community/helped` acepta `visitor_id` UUID. Ambos son idempotentes: el evento y la suma se confirman en una sola transacción y resisten reintentos concurrentes. Web y Android comparten estas cifras en Railway/Postgres. No se importan visitas históricas ni se inventan cifras iniciales.
+
+La interfaz actualiza cada 10 segundos mientras está visible. La visita se conserva entre páginas de la misma pestaña y se renueva tras 30 minutos sin actividad. El voto se limita mediante identificador aleatorio del navegador, almacenado localmente; el servidor conserva su hash, tipo de evento y fecha, sin nombre, correo ni IP en las tablas de métricas. No son personas únicas verificadas: borrar datos, cambiar de navegador/dispositivo o automatizar peticiones puede aumentar las cifras. Los botones y la web indican que son sesiones y opiniones anónimas. Estas métricas orientativas no deben utilizarse para pagos o premios; si se necesita analítica antifraude deberá añadirse protección perimetral antes de ese uso.
