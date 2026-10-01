@@ -1,0 +1,130 @@
+[
+  {
+    "id": "csmv",
+    "url": "https://www.csmvalencia.es/conservatorio/secretaria/",
+    "http_status": 200,
+    "title": "Secretaría - Conservatori Superior de Música “Joaquín Rodrigo” de València",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "csmc",
+    "url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/",
+    "http_status": 200,
+    "title": "Planes de estudio Título de Grado en Enseñanzas Artísticas Superiores - CSMC Salvador Seguí",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "csdv",
+    "url": "https://csdanza.es/",
+    "http_status": 200,
+    "title": "Conservatori Superior de Dansa de València Nacho Duato",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "esadv",
+    "url": "https://esadvalencia.com/estudios/interpretacion-textual/",
+    "http_status": 200,
+    "title": "Interpretación Textual – ESAD – Escuela Superior de Arte Dramático de Valencia",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "esmar",
+    "url": "https://esmarmusic.com/matriculas-inscripciones/pruebas-de-acceso-y-admision/",
+    "http_status": 200,
+    "title": "Pruebas de acceso a Grados de Enseñanzas Superiores de Música en ESMAR · Curso 2026/27 - esmarmusic",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "esmuc",
+    "url": "https://www.esmuc.cat/estudis/grau/",
+    "http_status": 200,
+    "title": "ESMUC- Grau",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "taller-musics",
+    "url": "https://tallerdemusics.com/superior",
+    "http_status": 200,
+    "title": "Estudios Musicales - Escuela Superior del Taller de Músics",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "it-esad",
+    "url": "https://seuelectronica.institutdelteatre.cat/ca/estudis/oferta/artdramatic",
+    "http_status": 200,
+    "title": "Estudis Superiors d’Art Dramàtic",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "escac",
+    "url": "https://escac.com/",
+    "http_status": 200,
+    "title": "",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "escm",
+    "url": "https://escm.es/loe/",
+    "http_status": 200,
+    "title": "LOE – ESCM",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "musikene",
+    "url": "https://musikene.eus/grado/",
+    "http_status": 200,
+    "title": "GRADO | MUSIKENE",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "consmupa",
+    "url": "https://consmupa.com/planes-de-estudios/",
+    "http_status": 200,
+    "title": "Planes de estudios - CONSMUPA",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "csmn",
+    "url": "https://csmn.es/pruebas-de-acceso/",
+    "http_status": 200,
+    "title": "Pruebas de acceso - CSMN",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "csmib",
+    "url": "https://conservatorisuperior.com/es/matriculacion/",
+    "http_status": 200,
+    "title": "Matriculación – Conservatori Superior de Música de les Illes Balears",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "animum-2d",
+    "url": "https://www.animum3d.com/dibujo-digital/master-animacion-2d/",
+    "http_status": 200,
+    "title": "Máster en Animación 2D y Dibujo Digital - Animum",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  },
+  {
+    "id": "escritores",
+    "url": "https://escueladeescritores.com/catalogo/",
+    "http_status": 200,
+    "title": "Catálogo de cursos y talleres | Escuela de Escritores",
+    "checked_at": "2026-10-01T20:08:05.623168+00:00",
+    "verified": true
+  }
+]
