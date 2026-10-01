@@ -142,7 +142,7 @@ class DossierReq(BaseModel): opportunity_id:int; project_focus:str
 def home(): return FileResponse(ROOT/"dist"/"index.html")
 @app.post("/api/signup")
 def signup(d:Signup,db:Session=Depends(dbdep)):
-    if len(d.password)<8: raise HTTPException(400,"Contraseña mínima 8 caracteres")
+    if not 8 <= len(d.password) <= 1024: raise HTTPException(400,"Contraseña mínima 8 caracteres")
     if db.scalar(select(User).where(User.email==d.email.lower())): raise HTTPException(409,"Email registrado")
     salt=secrets.token_hex(16); u=User(email=d.email.lower(),password_hash=hashpw(d.password,salt),salt=salt,name=d.name)
     db.add(u); db.flush(); tok=secrets.token_urlsafe(32); db.add(SessionToken(token=tok,user_id=u.id)); db.commit(); return {"token":tok}
@@ -151,6 +151,9 @@ def login(d:Login,db:Session=Depends(dbdep)):
     u=db.scalar(select(User).where(User.email==d.email.lower()))
     if not u or hashpw(d.password,u.salt)!=u.password_hash: raise HTTPException(401,"Credenciales incorrectas")
     tok=secrets.token_urlsafe(32); db.add(SessionToken(token=tok,user_id=u.id)); db.commit(); return {"token":tok}
+from .password_reset import install as install_recovery
+PasswordReset, RecoveryLimit = install_recovery(app, Base, engine, SessionLocal, dbdep, User, SessionToken, hashpw)
+
 @app.get("/api/me")
 def me(u:User=Depends(current_user)): return {"id":u.id,"email":u.email,"name":u.name,"discipline":u.discipline,"location":u.location,"interests":u.interests,"birth_year":u.birth_year,"plan":u.plan}
 @app.put("/api/me")

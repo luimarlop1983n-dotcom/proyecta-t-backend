@@ -57,3 +57,13 @@ Ver `VALIDATION.md` para las pruebas y límites de esta entrega. El sitio de Sit
 SHA-256 APK: `7e37de3e53384645dcea62840bc81d277c8f489af180f6d15895b06a19da8468`.
 
 Instrucciones contrastadas el 01/10/2026 con Apple (https://support.apple.com/guide/iphone/open-as-web-app-iphea86e5236/27/ios/27) y Chrome (https://support.google.com/chrome/answer/9658361?co=genie.platform%3DDesktop&hl=en). La compatibilidad real depende del sistema, navegador y permisos del dispositivo; el uso web siempre se ofrece como alternativa.
+
+### Recuperación de contraseña
+
+Configurar en Railway `PUBLIC_APP_URL` con el origen HTTPS público (sin barra final), `SMTP_HOST`, `SMTP_PORT` (587 con STARTTLS o 465 con TLS), `SMTP_USER`, `SMTP_PASSWORD` y `SMTP_FROM` de un remitente autorizado por el proveedor. No guardar secretos en el repositorio. Sin configuración, el formulario informa de que el correo no está disponible; no simula un envío.
+
+El enlace caduca a los 30 minutos, se almacena solo su hash y se consume de forma transaccional. El cambio invalida todas las sesiones y enlaces de recuperación del usuario. Las tablas nuevas se crean sin modificar cuentas existentes. Las solicitudes tienen límites persistentes por correo y dirección de conexión. El envío se procesa después de la respuesta genérica para no revelar si existe una cuenta; si SMTP falla se revoca el enlace y se registra un error sin datos personales. Configurar supervisión de entrega y probar con un buzón propio antes de anunciar la recuperación como disponible en producción. No se han enviado correos reales en las pruebas locales.
+
+Referencia de diseño: https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html
+
+Registro: correo y contraseña, nombre opcional y perfil posterior. Vista previa: documentos guardados, editor, exportación y dossier de cuenta; renderiza texto de forma segura y no envía el contenido a ningún servicio. La vista previa es del contenido, no una reproducción exacta de la paginación de Word/PDF.

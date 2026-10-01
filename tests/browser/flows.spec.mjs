@@ -63,3 +63,28 @@ test('mobile login and enlarged text remain usable',async({page},info)=>{
  if(info.project.name==='mobile'){const box=await page.locator('#authBtn').boundingBox();expect(box.y+box.height).toBeLessThan(844);}
  await page.setViewportSize({width:360,height:900});await page.addStyleTag({content:'html{font-size:200% !important}'});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
 });
+test('signup works without a name and exposes recovery',async({page})=>{
+ await setup(page);await page.goto('/cuenta/index.html');await page.getByRole('button',{name:'Crear cuenta',exact:true}).click();
+ await page.getByLabel('Correo electrónico').fill('simple@example.org');await page.getByLabel('Contraseña',{exact:true}).fill('long-password');
+ await expect(page.getByRole('link',{name:'He olvidado mi contraseña'})).toHaveAttribute('href','./recuperar.html');
+ await page.getByRole('button',{name:'Crear cuenta →'}).click();await expect(page.locator('#product')).toBeVisible();
+});
+test('recovery validates confirmation and removes token from address',async({page})=>{
+ let sent;
+ await page.route('**/api/password/reset',async route=>{sent=route.request().postDataJSON();await route.fulfill({json:{message:'Contraseña actualizada. Entra con tu nueva contraseña.'}});});
+ await page.goto('/cuenta/recuperar.html#reset=test-token-for-browser-only-123456789');
+ await expect(page).toHaveURL(/recuperar.html$/);await page.getByLabel('Nueva contraseña',{exact:true}).fill('new-password');await page.getByLabel('Repite la nueva contraseña').fill('not-the-same');
+ await page.getByRole('button',{name:'Guardar contraseña'}).click();await expect(page.locator('#recovery-status')).toContainText('no coinciden');expect(sent).toBeUndefined();
+ await page.getByLabel('Repite la nueva contraseña').fill('new-password');await page.getByRole('button',{name:'Guardar contraseña'}).click();await expect(page.locator('#recovery-status')).toContainText('actualizada');expect(sent.token).toBe('test-token-for-browser-only-123456789');
+});
+test('forgot password handles unconfigured mail without claiming delivery',async({page})=>{
+ await page.route('**/api/password/forgot',r=>r.fulfill({status:503,json:{detail:'Unavailable'}}));await page.goto('/cuenta/recuperar.html');await page.getByLabel('Correo electrónico').fill('me@example.org');await page.getByRole('button',{name:'Enviar enlace'}).click();await expect(page.locator('#recovery-status')).toContainText('no está disponible');await expect(page.locator('#recover-button')).toBeEnabled();
+});
+test('document preview safely shows current unsaved draft on small screens',async({page})=>{
+ await setup(page,{auth:true});await page.goto('/cuenta/index.html#dossier');await page.locator('#dossierOpp').selectOption('1');await page.locator('#focus').fill('Mi nueva obra');await page.getByRole('button',{name:'Crear borrador'}).click();await page.locator('#draft').fill('Edición sin guardar\n<img src=x onerror=alert(1)>');await page.getByRole('button',{name:'Vista previa',exact:true}).click();
+ await expect(page.locator('.preview-paper')).toContainText('Edición sin guardar');await expect(page.locator('.preview-paper img')).toHaveCount(0);expect(await page.locator('.document-preview').evaluate(e=>e.scrollWidth<=e.clientWidth+1)).toBeTruthy();await page.getByRole('button',{name:'Volver al documento'}).click();await expect(page.locator('#draft')).toHaveValue(/Edición sin guardar/);
+});
+test('saved documents preview and export preview preserve edits',async({page})=>{
+ await page.addInitScript(()=>localStorage.setItem('proyectat-created-documents-v1',JSON.stringify([{id:'preview-test',opportunityId:999999,kind:'Propuesta',content:'CONTENIDO GUARDADO\nUn proyecto artístico',updatedAt:new Date().toISOString()}])));
+ await page.goto('/radar.html');await page.getByRole('button',{name:'Documentos creados',exact:true}).click();await page.locator('[data-preview="preview-test"]').click();await expect(page.locator('.preview-paper')).toContainText('CONTENIDO GUARDADO');await page.getByRole('button',{name:'Volver al documento'}).click();await page.locator('[data-edit="preview-test"]').click();await page.locator('#document-content').fill('Mi última edición');await page.locator('#document-preview').click();await expect(page.locator('.preview-paper')).toContainText('Mi última edición');await page.getByRole('button',{name:'Volver al documento'}).click();await page.locator('#document-download').click();await page.locator('.export-dialog [data-preview]').click();await expect(page.locator('.preview-paper')).toContainText('Mi última edición');
+});

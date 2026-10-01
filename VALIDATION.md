@@ -22,3 +22,9 @@
 - 14 comprobaciones de descarga e instalación pasadas, además de los 26 recorridos existentes y 6 pruebas de lógica frontend. Emulación en Chrome: no son pruebas en dispositivos físicos iOS/Android.
 - Descarga GET comprobada: contenido ZIP/APK real, más de 1 MB, MIME de Android y cabecera attachment. APK de prueba 1.2.1 existente; no se ha creado una app nativa para iOS.
 - Página utilizable sin JavaScript, con instrucciones y descarga directa; cancelación y error del diálogo de instalación no bloquean el uso web.
+
+## Cuenta y vista previa · 01/10/2026
+
+Registro con nombre opcional, recuperación por SMTP con enlace de 30 minutos, hash en base de datos, consumo transaccional y revocación de sesiones. Vista previa segura del contenido en lista/editor/exportación y dossier de cuenta, incluidos cambios sin guardar.
+
+Validación: 11 pruebas de backend, 6 pruebas de lógica frontend y 26 recorridos de cuenta/vista previa en escritorio y móvil superados. Compilación compartida web/Capacitor correcta. SMTP simulado en pruebas: envío real y verificación del remitente pendientes de configuración en Railway. Cambios aún no publicados por falta de autorización de escritura de GitHub.

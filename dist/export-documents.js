@@ -25,9 +25,9 @@
   }
   function choose(name,blocks){
     const dialog=document.createElement('dialog');dialog.className='documents-dialog export-dialog';
-    dialog.innerHTML='<form><h2 id="export-title">Descargar documento</h2><label class="field">Formato<select name="format"><option value="docx">Word (.docx) · editable</option><option value="pdf">PDF (.pdf) · para compartir</option></select></label><p>Se descargará una copia de este documento. El original seguirá vinculado a tu oportunidad.</p><p role="status"></p><div class="dialog-actions"><button class="primary" type="submit">Descargar</button><button class="outline" type="button">Cancelar</button></div></form>';
+    dialog.innerHTML='<form><h2 id="export-title">Descargar documento</h2><label class="field">Formato<select name="format"><option value="docx">Word (.docx) · editable</option><option value="pdf">PDF (.pdf) · para compartir</option></select></label><p>Se descargará una copia de este documento. El original seguirá vinculado a tu oportunidad.</p><p role="status"></p><div class="dialog-actions"><button class="primary" type="submit">Descargar</button><button class="outline" type="button" data-preview>Vista previa</button><button class="outline" type="button" data-cancel>Cancelar</button></div></form>';
     dialog.setAttribute('aria-labelledby','export-title');document.body.append(dialog);
-    dialog.addEventListener('close',()=>dialog.remove());dialog.querySelector('[type=button]').onclick=()=>dialog.close();
+    dialog.addEventListener('close',()=>dialog.remove());dialog.querySelector('[data-cancel]').onclick=()=>dialog.close();dialog.querySelector('[data-preview]').onclick=()=>ProyectaPreview(name,blocks);
     dialog.querySelector('form').onsubmit=async e=>{e.preventDefault();const button=dialog.querySelector('[type=submit]'),status=dialog.querySelector('[role=status]');button.disabled=true;status.textContent='Preparando tu documento…';try{const format=dialog.querySelector('select').value,blob=await (format==='pdf'?pdf(blocks):word(blocks));await window.ProyectaDownload(blob,(name||'Documento').replace(/[^\p{L}\p{N} ._-]/gu,'').slice(0,120)+'.'+format);dialog.close();toast('Descarga preparada');}catch(error){status.textContent=error.message||'No se pudo preparar la descarga. Vuelve a intentarlo.';}finally{button.disabled=false;}};
     dialog.showModal();
   }
