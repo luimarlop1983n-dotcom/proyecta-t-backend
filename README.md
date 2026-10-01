@@ -52,9 +52,9 @@ Ver `VALIDATION.md` para las pruebas y límites de esta entrega. El sitio de Sit
 
 `/descargar.html` ofrece instalación web según dispositivo, selección manual, enlace para seguir en el navegador y descarga Android. iPhone/iPad usan Añadir a pantalla de inicio; no se anuncia una app de App Store. Windows, Mac y Linux usan instalación web cuando el navegador la ofrece o un acceso directo. El evento de instalación se consume solo tras pulsar el botón, con alternativa visible al cancelar o fallar.
 
-`GET /downloads/Proyecta-T-1.2.1.apk` devuelve el APK de prueba existente mediante FileResponse, con MIME Android y Content-Disposition attachment. El archivo está en `releases/` para incluirlo en el despliegue Docker sin copiarlo dentro de los recursos de Capacitor ni de la caché offline. Android mínimo: API 23. No es una versión de tienda ni un release firmado para producción.
+`GET /downloads/Proyecta-T-1.3.0.apk` devuelve el APK de prueba 1.3.0 mediante FileResponse, con MIME Android y Content-Disposition attachment. El archivo está en `releases/` para incluirlo en el despliegue Docker sin copiarlo dentro de los recursos de Capacitor ni de la caché offline. Android mínimo: API 23. No es una versión de tienda ni un release firmado para producción.
 
-SHA-256 APK: `7e37de3e53384645dcea62840bc81d277c8f489af180f6d15895b06a19da8468`.
+SHA-256 APK: `3d432e1d8d3e63a2f55451a09df9272d97a89ad9dcf882e15bafe9f644312a5c`.
 
 Instrucciones contrastadas el 01/10/2026 con Apple (https://support.apple.com/guide/iphone/open-as-web-app-iphea86e5236/27/ios/27) y Chrome (https://support.google.com/chrome/answer/9658361?co=genie.platform%3DDesktop&hl=en). La compatibilidad real depende del sistema, navegador y permisos del dispositivo; el uso web siempre se ofrece como alternativa.
 
@@ -66,10 +66,20 @@ El enlace caduca a los 30 minutos, se almacena solo su hash y se consume de form
 
 Referencia de diseño: https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html
 
-Registro: correo y contraseña, nombre opcional y perfil posterior. Vista previa: documentos guardados, editor, exportación y dossier de cuenta; renderiza texto de forma segura y no envía el contenido a ningún servicio. La vista previa es del contenido, no una reproducción exacta de la paginación de Word/PDF.
+Registro: correo y contraseña, nombre opcional y perfil posterior. Vista previa: documentos guardados, editor, exportación y dossier de cuenta; renderiza texto de forma segura y no envía el contenido a ningún servicio. La vista previa genera el mismo PDF que la exportación, con alternativa de abrirlo si el navegador no lo muestra incrustado. Word sigue siendo editable y su paginación puede variar.
 
 ### Contadores públicos de comunidad
 
 `GET /api/community` devuelve visitas (sesiones) y votos de ayuda. `POST /api/community/visit` acepta `session_id` UUID; `POST /api/community/helped` acepta `visitor_id` UUID. Ambos son idempotentes: el evento y la suma se confirman en una sola transacción y resisten reintentos concurrentes. Web y Android comparten estas cifras en Railway/Postgres. No se importan visitas históricas ni se inventan cifras iniciales.
 
 La interfaz actualiza cada 10 segundos mientras está visible. La visita se conserva entre páginas de la misma pestaña y se renueva tras 30 minutos sin actividad. El voto se limita mediante identificador aleatorio del navegador, almacenado localmente; el servidor conserva su hash, tipo de evento y fecha, sin nombre, correo ni IP en las tablas de métricas. No son personas únicas verificadas: borrar datos, cambiar de navegador/dispositivo o automatizar peticiones puede aumentar las cifras. Los botones y la web indican que son sesiones y opiniones anónimas. Estas métricas orientativas no deben utilizarse para pagos o premios; si se necesita analítica antifraude deberá añadirse protección perimetral antes de ese uso.
+
+### Puck, actualización y documentos propios · 1.3.0
+
+Puck aparece en las páginas principales con accesos reales a formación, radar, documentos y descarga. Se aparta de formularios, diálogos y barras inferiores. `Actualizar app` consulta `/app-release.json`: en web/PWA comprueba el service worker y pide guardar antes de recargar; en Android compara con `App.getInfo()` y abre la descarga pública del APK nuevo para que el usuario confirme la instalación. Los metadatos de versión nunca se sirven desde la caché offline.
+
+Cada publicación que cambie la web debe incrementar `WEB_VERSION` en `dist/app-update.js`, `web_version` en `dist/app-release.json` y el nombre de caché en `dist/sw.js`. Para Android, incrementar también package/versionName/versionCode, reconstruir con `npm run android:build`, copiar el APK a `releases/`, añadir la ruta y actualizar la página de descarga y los metadatos públicos. Conservar el mismo almacén de firma; no publicar secretos ni claves.
+
+Importación local de Word `.docx` y texto `.txt` UTF-8, hasta 5 MB y 30.000 caracteres. Extrae texto principal, sin conservar imágenes ni diseño original; no admite PDF de entrada ni OCR. El editor permite conservar los hechos del documento y añadir una guía de adaptación a una oportunidad. No es una reescritura automática con IA. Los documentos del radar se guardan en el navegador; descargar una copia para conservarlos fuera de él.
+
+Modelos de creación: paquete esencial de tres documentos, paquete completo de seis o cada modelo por separado (propuesta detallada, carta, dossier profesional, presupuesto, calendario/plan y requisitos). El currículum conserva su editor específico. Presentaciones Clásico, Editorial y Compacto disponibles tanto en Word como en la vista y descarga PDF. Los apartados pendientes se señalan y no se fabrican cifras, méritos ni experiencia.

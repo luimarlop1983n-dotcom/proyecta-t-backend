@@ -1,0 +1,11 @@
+// Puck accompanies navigation; its menu links to real sections of Proyecta-T.
+if (!document.querySelector('[data-puck]')) {
+ const style=document.createElement('link');style.rel='stylesheet';style.href='/puck.css';document.head.append(style);
+ const host=document.createElement('aside');host.className='puck-companion';host.dataset.puck='';host.setAttribute('aria-label','Puck, tu compañero creativo');
+ const launcher=document.createElement('button');launcher.type='button';launcher.className='puck-launcher';launcher.setAttribute('aria-label','Puck: ¿qué creamos hoy? Abrir accesos');launcher.setAttribute('aria-haspopup','dialog');
+ launcher.innerHTML='<img src="/puck.png" alt="" width="100" height="100"><span><strong>PUCK</strong><small>¿Qué creamos hoy?</small></span>';
+ host.append(launcher);document.body.append(host);
+ const dialog=document.createElement('dialog');dialog.className='puck-dialog';dialog.setAttribute('aria-labelledby','puck-title');dialog.setAttribute('aria-describedby','puck-description');
+ dialog.innerHTML='<button type="button" class="puck-close" aria-label="Cerrar accesos de Puck">×</button><div class="puck-welcome"><img src="/puck.png" alt="Puck, un bichito verde esponjoso con gafas de inventor y una mirada cariñosa" width="150" height="150"><div><p class="puck-name">PUCK</p><h2 id="puck-title">¿Qué creamos hoy?</h2></div></div><p id="puck-description">Una idea, un oficio, una oportunidad. Elige por dónde empezamos.</p><nav aria-label="Accesos de Puck"><a href="/estudios.html"><strong>Encuentra dónde estudiar ↗</strong><span>Escuelas, conservatorios y formación online.</span></a><a href="/radar.html"><strong>Explora oportunidades ↗</strong><span>Ofertas y convocatorias con sus fuentes.</span></a><a href="/radar.html#crear-documentos"><strong>Da forma a tus documentos ↗</strong><span>Propuesta, carta y lista de requisitos.</span></a><a href="/descargar.html"><strong>Llévate la app ↗</strong><span>Descarga e instalación para tu dispositivo.</span></a></nav>';
+ document.body.append(dialog);launcher.onclick=()=>dialog.showModal();dialog.querySelector('.puck-close').onclick=()=>dialog.close();dialog.addEventListener('close',()=>launcher.focus());
+}

@@ -27,8 +27,24 @@
 
 Registro con nombre opcional, recuperación por SMTP con enlace de 30 minutos, hash en base de datos, consumo transaccional y revocación de sesiones. Vista previa segura del contenido en lista/editor/exportación y dossier de cuenta, incluidos cambios sin guardar.
 
-Validación: 11 pruebas de backend, 6 pruebas de lógica frontend y 26 recorridos de cuenta/vista previa en escritorio y móvil superados. Compilación compartida web/Capacitor correcta. SMTP simulado en pruebas: envío real y verificación del remitente pendientes de configuración en Railway. Cambios aún no publicados por falta de autorización de escritura de GitHub.
+Validación: 11 pruebas de backend, 6 pruebas de lógica frontend y 26 recorridos de cuenta/vista previa en escritorio y móvil superados. Compilación compartida web/Capacitor correcta. SMTP simulado en pruebas: envío real y verificación del remitente pendientes de configuración en Railway. Esta entrega se publicó después de completar la autorización de GitHub.
 
 ## Comunidad · 01/10/2026
 
 Contador público de sesiones web/app y opiniones de ayuda. Incrementos idempotentes y atómicos en la misma base Railway. Dos pruebas backend (incluida concurrencia) y seis recorridos de navegador móvil/escritorio superados: deduplicación, fallos y actualización visible cada diez segundos. No son visitantes únicos verificados ni una analítica resistente a bots.
+
+
+## Puck, actualización y documentos · 1.3.0 · 01/10/2026
+
+- Puck integrado en las páginas principales, recuperación y APK; accesos reales y separación de formularios, navegación inferior y comparador. Cuatro recorridos de escritorio/móvil aprobados.
+- Botón visible de actualización: versiones públicas, comprobación del service worker, confirmación antes de recargar y descarga Android según versión instalada. Diez pruebas de navegador aprobadas, incluidas desconexión y cancelación.
+- Importación local de DOCX/TXT y edición/adaptación: diez pruebas aprobadas con archivo Word comprimido real, errores, límites, falta de almacenamiento y texto malicioso inerte.
+- Seis modelos individuales, paquete esencial de tres y completo de seis: ocho pruebas aprobadas. Medición local real del paquete completo: 72 ms desde pulsar crear hasta mostrar los seis documentos; no es una garantía para todos los dispositivos.
+- Tres presentaciones Clásico/Editorial/Compacto: doce pruebas PDF/presentaciones aprobadas. Se comprueban archivos PDF/Word válidos, fuentes/márgenes, paginación A4, bytes idénticos entre vista previa y descarga PDF y cambios de presentación concurrentes. Vista PDF inspeccionada visualmente en Chrome.
+- Cuenta conserva edición actual y ofrece Word/PDF: cuatro pruebas aprobadas. Regresión de cuenta, registro, recuperación y edición: veintiséis recorridos aprobados. Trece pruebas backend y seis de lógica frontend aprobadas.
+- Service worker real instalado y activado con la nueva caché y módulos comunes. Android y móvil se comprueban por compilación y emulación; no se ha realizado una prueba en dispositivo físico ni una publicación en tienda.
+- Importación conserva texto, no imágenes ni diseño original. PDF de entrada no está admitido. Fuentes PDF estándar: caracteres no compatibles muestran un error y mantienen la opción Word. Las plantillas dejan claros los datos pendientes y no inventan trayectoria ni cifras.
+
+APK final 1.3.0 (versionCode 5), 6.553.890 bytes, compilación correcta. Firma válida y mismo certificado que 1.2.1; los assets de documentos, exportación, vista previa, actualización y Puck dentro del APK coinciden byte a byte con dist. Regeneradas dependencias npm locales y caché de compilación antigua; rutas Gradle relativas al repositorio.
+
+Catorce pruebas de descarga e instalación aprobadas para la versión final1.3.0: entrega APK real, adaptación por dispositivo, cancelación, errores y alternativa sin JavaScript.

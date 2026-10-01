@@ -292,13 +292,17 @@ import_catalog()
 @app.middleware("http")
 async def live_cache_policy(request, call_next):
     response=await call_next(request)
-    if request.url.path.startswith("/api/") or request.url.path.endswith((".html", ".js")) or request.url.path == "/":
+    if request.url.path.startswith("/api/") or request.url.path.endswith((".html", ".js")) or request.url.path in ("/", "/app-release.json"):
         response.headers["Cache-Control"]="no-store"
     return response
 
-@app.get("/downloads/Proyecta-T-1.2.1.apk")
+@app.api_route("/downloads/Proyecta-T-1.2.1.apk", methods=["GET", "HEAD"])
 def download_android():
     return FileResponse(ROOT/"releases/Proyecta-T-1.2.1.apk", media_type="application/vnd.android.package-archive", filename="Proyecta-T-1.2.1.apk", headers={"X-Content-Type-Options":"nosniff"})
+
+@app.api_route("/downloads/Proyecta-T-1.3.0.apk", methods=["GET", "HEAD"])
+def download_android_current():
+    return FileResponse(ROOT/"releases/Proyecta-T-1.3.0.apk", media_type="application/vnd.android.package-archive", filename="Proyecta-T-1.3.0.apk", headers={"X-Content-Type-Options":"nosniff"})
 
 # Keep API routes before the shared website mount; HTML directory aliases work on Android too.
 app.mount("/", StaticFiles(directory=ROOT/"dist", html=True), name="web")
