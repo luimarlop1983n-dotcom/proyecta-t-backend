@@ -47,3 +47,13 @@ Ver `VALIDATION.md` para las pruebas y límites de esta entrega. El sitio de Sit
 47 fichas: 46 verificadas y una pendiente por bloqueo HTTP 403. 36 programas oficiales y 10 propios/no oficiales verificados, con centros en 11 comunidades y 10 opciones online. Filtros independientes de modalidad, comunidad, titulación y titularidad; búsqueda sin acentos y comparación de hasta tres programas. Las opciones a distancia con presencialidad desconocida se distinguen de online. Los directorios ministeriales enlazan la oferta de todas las comunidades.
 
 `docs/training-link-audit.json` conserva las respuestas y redirecciones comprobadas el 17/09/2026, incluido el enlace 404 descartado. La revisión de contenido se realiza aparte: una respuesta HTTP 200 no prueba oficialidad, matrícula abierta ni calidad. No renovar `last_activity_at` con un simple chequeo HTTP.
+
+## Descargar e instalar
+
+`/descargar.html` ofrece instalación web según dispositivo, selección manual, enlace para seguir en el navegador y descarga Android. iPhone/iPad usan Añadir a pantalla de inicio; no se anuncia una app de App Store. Windows, Mac y Linux usan instalación web cuando el navegador la ofrece o un acceso directo. El evento de instalación se consume solo tras pulsar el botón, con alternativa visible al cancelar o fallar.
+
+`GET /downloads/Proyecta-T-1.2.1.apk` devuelve el APK de prueba existente mediante FileResponse, con MIME Android y Content-Disposition attachment. El archivo está en `releases/` para incluirlo en el despliegue Docker sin copiarlo dentro de los recursos de Capacitor ni de la caché offline. Android mínimo: API 23. No es una versión de tienda ni un release firmado para producción.
+
+SHA-256 APK: `7e37de3e53384645dcea62840bc81d277c8f489af180f6d15895b06a19da8468`.
+
+Instrucciones contrastadas el 01/10/2026 con Apple (https://support.apple.com/guide/iphone/open-as-web-app-iphea86e5236/27/ios/27) y Chrome (https://support.google.com/chrome/answer/9658361?co=genie.platform%3DDesktop&hl=en). La compatibilidad real depende del sistema, navegador y permisos del dispositivo; el uso web siempre se ofrece como alternativa.

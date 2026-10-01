@@ -15,3 +15,7 @@ html{scroll-padding-top:20px}body{padding-bottom:env(safe-area-inset-bottom)}
 [hidden]{display:none!important}
 
 .account-link{display:inline-block;color:#e0c5ff!important;border:1px solid #c3a3ff60;border-radius:8px;padding:8px 12px;font-size:13px;white-space:nowrap} header{padding-top:env(safe-area-inset-top)}
+
+.app-tools a.app-install{display:inline-block;font:600 14px/1.4 system-ui;color:#25162f;background:#d4afff;border:1px solid #d4afff;padding:11px 17px;border-radius:8px;text-decoration:none}.app-tools a:focus-visible{outline:2px solid #ed9bce;outline-offset:4px}
+
+header:has(+ .app-tools){flex-wrap:wrap}

@@ -290,5 +290,9 @@ async def live_cache_policy(request, call_next):
         response.headers["Cache-Control"]="no-store"
     return response
 
+@app.get("/downloads/Proyecta-T-1.2.1.apk")
+def download_android():
+    return FileResponse(ROOT/"releases/Proyecta-T-1.2.1.apk", media_type="application/vnd.android.package-archive", filename="Proyecta-T-1.2.1.apk", headers={"X-Content-Type-Options":"nosniff"})
+
 # Keep API routes before the shared website mount; HTML directory aliases work on Android too.
 app.mount("/", StaticFiles(directory=ROOT/"dist", html=True), name="web")

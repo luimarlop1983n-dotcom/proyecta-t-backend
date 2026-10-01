@@ -14,3 +14,11 @@
 
 - Formación: comprobadas todas las URLs finales de programas, enlaces complementarios y directorios; retirada la academia local que redirige a 404. 36 titulaciones oficiales y 10 formaciones propias verificadas. Diferenciadas titularidad y oficialidad.
 - Comparador de tres programas probado con filtros, límite de selección y limpieza; no muestra una comprobación caducada o un fallo de red como verificado.
+
+## Descarga de la app · 01/10/2026
+
+- Botón visible en portada, radar, formación y cuenta; destino `/descargar.html`.
+- Detección de iPhone, iPad con identificación de Mac y pantalla táctil, Android y escritorio; selector manual como alternativa.
+- 14 comprobaciones de descarga e instalación pasadas, además de los 26 recorridos existentes y 6 pruebas de lógica frontend. Emulación en Chrome: no son pruebas en dispositivos físicos iOS/Android.
+- Descarga GET comprobada: contenido ZIP/APK real, más de 1 MB, MIME de Android y cabecera attachment. APK de prueba 1.2.1 existente; no se ha creado una app nativa para iOS.
+- Página utilizable sin JavaScript, con instrucciones y descarga directa; cancelación y error del diálogo de instalación no bloquean el uso web.
